@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="springNomaven">
+    <wb-module deploy-name="SISPLAT-G">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="springNomaven"/>
-        <property name="java-output-path" value="/springNomaven/build/classes"/>
+        <property name="java-output-path" value="/SISPLAT-G/build/classes"/>
+        <property name="context-root" value="SISPLAT-G"/>
     </wb-module>
 </project-modules>
