@@ -26,7 +26,7 @@ import pe.edu.upeu.Spring01.service.UsuarioService;
 public class HomeController {
 	@GetMapping("/")
 	public String index() {
-		return "principal";
+		return "index";
 	}
 	@PostMapping("/home")
 	public String main1() {
