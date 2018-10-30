@@ -1,0 +1,137 @@
+<div class="container-2">
+     <div id="page-wrapper">   
+      <div class="row">
+     <div class="col-md-12">
+      <div class="page-title">
+       <h2>Menu Principal</h2>
+        <ol class="breadcrumb">
+         <li class="active"><i class="fa fa-dashboard"></i> Dashboard</li>
+        </ol>
+       </div>
+      </div>
+     </div> 
+                                                 
+        <div class="row" >
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading dark-blue">
+                                    <i class="fa fa-users fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+                                <div class="circle-tile-description text-faded">
+                                    Clientes
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    39
+                                    <span id="sparklineA"></span>
+                                </div>
+                                <a href="view/ventas.jsp" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading green">
+                                    <i class="fa fa-money fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content green">
+                                <div class="circle-tile-description text-faded">
+                                    Ganancias
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    5962.50$
+                                </div>
+                                <a href="#" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="view/venta.jsp">
+                                <div class="circle-tile-heading orange">
+                                    <i class="fa fa-shopping-cart fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content orange">
+                                <div class="circle-tile-description text-faded">
+                                    Ventas
+                                </div>
+                                <div class="circle-tile-number text-faded" id="NroVentas">
+                                </div>
+                                <a href="view/venta.jsp" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="view/productos.jsp">
+                                <div class="circle-tile-heading blue">
+                                    <i class="fa fa-tasks fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content blue">
+                                <div class="circle-tile-description text-faded">
+                                    Productos
+                                </div>
+                                <div id="NroProd" class="circle-tile-number text-faded">
+                                    
+                                    <span id="sparklineB"></span>
+                                </div>
+                                <a href="view/productos.jsp" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="view/usuario.jsp">
+                                <div class="circle-tile-heading red">
+                                    <i class="fa fa-user fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content red">
+                                <div class="circle-tile-description text-faded">
+                                    Usuarios
+                                </div>
+                                <div class="circle-tile-number text-faded" id="NroUser">
+                                    <span id="sparklineC"></span>
+                                </div>
+                                <a href="view/usuario.jsp" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading purple">
+                                    <i class="fa fa-line-chart fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content purple">
+                                <div class="circle-tile-description text-faded">
+                                    Reportes
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    <i class="fa fa-pencil"></i>
+                                    <span id="sparklineD"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">Más <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-6">
+                    <h4 align="center">Ingresos de los ultimos 7 dias</h4>
+                    <div id="GraficosVenta" style="height: 250px;"></div>
+                </div>
+                <div class="col-md-6">
+                    <h4 align="center">Productos mas vendidos</h4>
+                    <div id="GraficosProd" style="height: 250px;"></div>
+                </div>
+                </div>
+                                                        
+    </div><!-- page-wrapper TERMINA-->
+   </div><!-- termina contenedor-->
+    

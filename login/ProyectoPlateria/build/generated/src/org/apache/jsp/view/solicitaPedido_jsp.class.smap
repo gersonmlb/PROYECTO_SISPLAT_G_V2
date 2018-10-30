@@ -1,0 +1,26 @@
+SMAP
+solicitaPedido_jsp.java
+JSP
+*S JSP
+*F
++ 0 solicitaPedido.jsp
+view/solicitaPedido.jsp
++ 1 headerView.jspf
+view/../WEB-INF/template/headerView.jspf
++ 2 navMainView.jspf
+view/../WEB-INF/template/navMainView.jspf
++ 3 footer.jspf
+view/../WEB-INF/template/footer.jspf
++ 4 footerView.jspf
+view/../WEB-INF/template/footerView.jspf
+*L
+1,7:52
+1#1,7:59
+7#0,5:65
+1#2,121:70
+11#0,175:191
+1#3,17:366
+185#0,2:382
+1#4,4:384
+186#0,137:387
+*E

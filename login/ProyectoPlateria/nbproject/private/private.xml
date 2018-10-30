@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>web/WEB-INF/template/loginMainBody.jspf</url>
+            <bookmark id="2">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/ProyectoPlateria/src/java/com/plateriaGuadalupe/util/Conexion.java</file>
+            <file>file:/E:/ProyectoPlateria/src/java/com/plateriaGuadalupe/entity/User.java</file>
+            <file>file:/E:/ProyectoPlateria/web/js/venta.js</file>
+            <file>file:/E:/ProyectoPlateria/web/view/usuario.jsp</file>
+            <file>file:/E:/ProyectoPlateria/web/WEB-INF/template/loginMainBody.jspf</file>
+            <file>file:/E:/ProyectoPlateria/web/view/venta.jsp</file>
+            <file>file:/E:/ProyectoPlateria/web/WEB-INF/template/headerMainBody.jspf</file>
+        </group>
+    </open-files>
+</project-private>
