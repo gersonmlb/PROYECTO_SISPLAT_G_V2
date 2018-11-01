@@ -38,7 +38,8 @@
 		data-target="#myModal">Open modal</button>
 
 
-	<div class="table-responsive" style="background-color: white; margin-top: 5%;">
+	<div class="table-responsive"
+		style="background-color: white; margin-top: 5%;">
 		<table class="table table-hover">
 			<thead>
 				<tr>
@@ -61,12 +62,15 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
+					<td>john@example.com</td>
 				</tr>
 				<tr>
 					<td>Mary</td>
 					<td>Moe</td>
 					<td>mary@example.com</td>
 					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
 				</tr>
@@ -77,105 +81,86 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-
-
-
 	<!-- The Modal -->
 	<div class="modal" id="myModal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-
-				<!-- Modal Header -->
-
 				<div class="modal-header">
-
 					<h3>Informacion Empleado</h3>
-
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
 				<!-- Modal body -->
 				<div class="modal-body">
 					<!-- form user info -->
-					<div class="card card-outline-secondary">
-
-						<div class="card-body">
-							<form class="form" role="form" autocomplete="off">
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">First
-										name</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="text" value="Jane">
-									</div>
+					<div class="card-body">
+						<form class="form" role="form" autocomplete="off">
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">First
+									name</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="text" placeholder="Jose Armando">
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Last
-										name</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="text" value="Bishop">
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">Last
+									name</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="text" placeholder="Guzman Gonzales" >
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">DNI</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="text" value="74289801">
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">DNI</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="text" placeholder="74289801">
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Type</label>
-									<div class="col-lg-9">
-										<select id="user_time_zone" class="form-control" size="0">
-											<option value="Hawaii">Administrador</option>
-											<option value="Central Time (US &amp; Canada)"
-												selected="selected">Vendedor</option>
-											<option value="Indiana (East)">Jefe de fabricación</option>
-										</select>
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">Type</label>
+								<div class="col-lg-9">
+									<select id="user_time_zone" class="form-control" size="0">
+										<option value="Hawaii">Administrador</option>
+										<option value="Central Time (US &amp; Canada)"
+											selected="selected">Vendedor</option>
+										<option value="Indiana (East)">Jefe de fabricación</option>
+									</select>
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Username</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="text" value="joseuser">
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">Username</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="text" placeholder="JoseGuzman123">
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Password</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="password"
-											value="11111122333">
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">Password</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="password" placeholder="123456">
 								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Confirm</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="password"
-											value="11111122333">
-									</div>
+							</div>
+							<div class="form-group row">
+								<label class="col-lg-3 col-form-label form-control-label">Confirm</label>
+								<div class="col-lg-9">
+									<input class="form-control" type="password" placeholder="123456">
 								</div>
-
-
-							</form>
-						</div>
+							</div>
+						</form>
 					</div>
 				</div>
-
 				<!-- Modal footer -->
 				<div class="modal-footer">
 					<input type="reset" class="btn btn-secondary" data-dismiss="modal"
-						value="Cancel"> <input type="button"
+						value="Cancel"> <input id="GuardarEmpleado" type="button"
 						class="btn btn-primary" value="Save Changes">
 				</div>
-
 			</div>
 		</div>
 	</div>
-
-
-
-
 
 	</main>
 	<!-- Essential javascripts for application to work-->

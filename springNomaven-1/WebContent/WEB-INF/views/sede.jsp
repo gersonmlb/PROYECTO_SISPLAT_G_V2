@@ -16,11 +16,6 @@
 	crossorigin="anonymous">
 <spring:url value="/recursos" var="urlrecursos"></spring:url>
 <link href="${urlrecursos}/css/template.css" rel="stylesheet">
-<style type="text/css">
-.letra {
-	font-family: Century Gothic;
-}
-</style>
 </head>
 <body class="app sidebar-mini rtl">
 	<!-- Navbar-->
@@ -29,84 +24,52 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-user fa-lg"></i> Orden Trabajo
+				<i class="fa fa-user fa-lg"></i> Crear Sede
 			</h1>
 			<p>Start a beautiful journey here</p>
 		</div>
+		<ul class="app-breadcrumb breadcrumb">
+			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
+		</ul>
+	</div>
+	
+	<button type="button" class="btn btn-primary btn-lg"
+		data-toggle="modal" data-target="#myModal">Launch demo modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="control-label">Recipient:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="control-label">Message:</label>
+							<textarea class="form-control" id="message-text"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div>
-		<div class="col-sm-3"
-			style="background-color: green; float: left; height: 80px;">
-			<label style="margin-top: 10px; font-family: Century Gothic;">
-				NOMBRE CLIENTE </label> <input style="">
-
-		</div>
-		<div class="col-sm-3"
-			style="background-color: blue; float: left; height: 80px;">
-			<label style="margin-top: 10px;">CODIGO PEDIDO</label> <input
-				style="">
-		</div>
-		<div class="col-sm-3"
-			style="background-color: yellow; float: left; height: 80px;">
-			<label style="margin-top: 10px;">FECHA EMITIDA</label> <input
-				style="">
-		</div>
-		<div class="col-sm-3"
-			style="background-color: purple; float: left; height: 80px;">
-			<label style="margin-top: 10px;">PRODUCTO</label> <br> <input
-				style="">
-		</div>
-	</div>
-	<div class="table-responsive jazmin"
-		style="background-color: white; margin-top: 20%;">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th>#</th>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Dni</th>
-					<th>Type</th>
-					<th>User Name</th>
-					<th>Password</th>
-					<th colspan="2">Action</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>Mary</td>
-					<td>Moe</td>
-					<td>mary@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>July</td>
-					<td>Dooley</td>
-					<td>july@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
 
 	</main>
 	<!-- Essential javascripts for application to work-->
@@ -119,6 +82,7 @@
 	<!-- Page specific javascripts-->
 	<!-- Google analytics script-->
 	<script type="text/javascript">
+
 		if (document.location.hostname == 'pratikborsadiya.in') {
 			(function(i, s, o, g, r, a, m) {
 				i['GoogleAnalyticsObject'] = r;

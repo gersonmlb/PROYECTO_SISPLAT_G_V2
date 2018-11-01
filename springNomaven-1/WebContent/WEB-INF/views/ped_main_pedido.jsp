@@ -51,7 +51,6 @@
 			<h1>
 				<i class="fa fa-dashboard"></i> Nuevo pedido
 			</h1>
-			<p>Start a beautiful journey here</p>
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
 			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
@@ -72,7 +71,7 @@
 									<div class="media">
 										<div class="media-body text-xs-left">
 											<h3 class="pink">10</h3>
-											<span>Nuevo Pedido</span>
+											<span><a style="color: black" href="/SISPLAT-G/ped_lista_nuevo_pedido">Nuevo Pedido </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i class="icon-bag2 pink font-large-2 float-xs-right"></i>
@@ -88,8 +87,8 @@
 								<div class="card-block">
 									<div class="media">
 										<div class="media-body text-xs-left">
-											<h3 class="deep-orange">29</h3>
-											<span>Orden Trabajo</span>
+											<h3 class="deep-orange">10</h3>
+											<span><a style="color: black" href="/SISPLAT-G/ped_lista_hoja_contrato"> Hoja Contrato </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i
@@ -106,8 +105,8 @@
 								<div class="card-block">
 									<div class="media">
 										<div class="media-body text-xs-left">
-											<h3 class="teal">15</h3>
-											<span>Hoja Contrato</span>
+											<h3 class="teal">10</h3>
+											<span><a style="color: black" href="/SISPLAT-G/ped_orden_trabajo"> Orden Trabajo </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i class="icon-user1 teal font-large-2 float-xs-right"></i>
@@ -119,12 +118,13 @@
 					</div>
 					<div class="col-xl-3 col-lg-6 col-xs-12">
 						<div class="card">
+						<a href="/springNomaven/ped_comprobante_pedido"></a>
 							<div class="card-body">
 								<div class="card-block">
 									<div class="media">
 										<div class="media-body text-xs-left">
-											<h3 class="deep-orange">29</h3>
-											<span>Venta Pedido</span>
+											<h3 class="deep-orange">10</h3>
+											<span><a style="color: black" href="/SISPLAT-G/ped_comprobante_pedido">Venta Pedido </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i

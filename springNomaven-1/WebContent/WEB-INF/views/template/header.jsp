@@ -108,7 +108,7 @@
 		</div>
 	</div>
 	<ul class="app-menu">
-		<li><a class="app-menu__item" href="/springNomaven/principal"><i
+		<li><a class="app-menu__item" href="/SISPLAT-G/principal"><i
 				class="app-menu__icon fa fa-dashboard"></i><span
 				class="app-menu__label">Home</span></a></li>
 		<li class="treeview"><a class="app-menu__item" href="#"
@@ -116,11 +116,11 @@
 				class="app-menu__label">Operaciones</span><i
 				class="treeview-indicator fa fa-angle-right"></i></a>
 			<ul class="treeview-menu">
-				<li><a class="treeview-item" href="/springNomaven/venta"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/venta"><i
 						class="icon fa fa-circle-o"></i>Ventas</a></li>
-				<li><a class="treeview-item" href="/springNomaven/ped_main_pedido"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/ped_main_pedido"><i
 						class="icon fa fa-circle-o"></i>Nuevo pedido</a></li>
-				<li><a class="treeview-item" href="/springNomaven/main_compras"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/main_compras"><i
 						class="icon fa fa-circle-o"></i>Compras</a></li>
 			</ul></li>
 		<li class="treeview"><a class="app-menu__item" href="#"
@@ -128,9 +128,9 @@
 				class="app-menu__label">Clientes</span><i
 				class="treeview-indicator fa fa-angle-right"></i></a>
 			<ul class="treeview-menu">
-				<li><a class="treeview-item" href="/springNomaven/clientenatural"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/clientenatural"><i
 						class="icon fa fa-circle-o"></i>Natural</a></li>
-				<li><a class="treeview-item" href="/springNomaven/clientejuridico"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/clientejuridico"><i
 						class="icon fa fa-circle-o"></i>Juridico</a></li>
 			</ul></li>
 		<li class="treeview"><a class="app-menu__item" href="#"
@@ -138,9 +138,9 @@
 				class="app-menu__label">Registros Personas</span><i
 				class="treeview-indicator fa fa-angle-right"></i></a>
 			<ul class="treeview-menu">
-				<li><a class="treeview-item" href="/springNomaven/empleado"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/empleado"><i
 						class="icon fa fa-circle-o"></i>Empleados</a></li>
-				<li><a class="treeview-item" href="/springNomaven/proveedor"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/proveedor"><i
 						class="icon fa fa-circle-o"></i>Proveedores</a></li>
 			</ul></li>
 
@@ -151,7 +151,7 @@
 			<ul class="treeview-menu">
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i>Productos</a></li>
-				<li><a class="treeview-item" href="#"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/sede"><i
 						class="icon fa fa-circle-o"></i>Sedes</a></li>
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i> Materia prima</a></li>
