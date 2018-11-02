@@ -58,7 +58,7 @@
 				style="">
 		</div>
 	</div>
-	<div class="table-responsive jazmin"
+	<div class="table-responsive"
 		style="background-color: white; margin-top: 20%;">
 		<table class="table table-hover">
 			<thead>

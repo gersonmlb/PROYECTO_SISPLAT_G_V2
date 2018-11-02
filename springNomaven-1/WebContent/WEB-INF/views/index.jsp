@@ -7,72 +7,88 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login</title>
-<link rel="stylesheet" type="text/css"
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <spring:url value="/recursos" var="urlrecursos"></spring:url>
-<link href="${urlrecursos}/css/template.css" rel="stylesheet">
-
+<link href="${urlrecursos}/css_login/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="${urlrecursos}/css_login/bootstrap.min.css" rel="stylesheet">
+<link href="${urlrecursos}/css_login/styleFooter.css" rel="stylesheet">
+<link href="${urlrecursos}/css_login/styleLogin.css" rel="stylesheet">
+<link href="${urlrecursos}/css_login/styleMain.css" rel="stylesheet">
 </head>
 <body>
-	<section class="material-half-bg">
-		<div class="cover"></div>
-	</section>
-	<section class="login-content">
-		<div class="logo">
-			<h1>Plateria Guadalupe</h1>
-		</div>
-		<div class="login-box">
-			<form class="login-form" action="home" method="post">
-				<h3 class="login-head">
-					<i class="fa fa-lg fa-fw fa-user"></i>SIGN IN
-				</h3>
-				<div class="form-group">
-					<label class="control-label">USERNAME</label> <input
-						class="form-control" type="text" placeholder="Email" autofocus>
-				</div>
-				<div class="form-group">
-					<label class="control-label">PASSWORD</label> <input
-						class="form-control" type="password" placeholder="Password">
-				</div>
-				<div class="form-group">
-					<div class="utility">
-						<div class="animated-checkbox">
-							<label> <input type="checkbox"><span
-								class="label-text">Stay Signed in</span>
-							</label>
-						</div>
-						<p class="semibold-text mb-2">
-							<a href="#" data-toggle="flip">Forgot Password ?</a>
-						</p>
-					</div>
-				</div>
-				<div class="form-group btn-container">
-					<button class="btn btn-primary btn-block">
-						<i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN
-					</button>
-				</div>
-			</form>
-			<form class="forget-form" action="index.html">
-				<h3 class="login-head">
-					<i class="fa fa-lg fa-fw fa-lock"></i>Forgot Password ?
-				</h3>
-				<div class="form-group">
-					<label class="control-label">EMAIL</label> <input
-						class="form-control" type="text" placeholder="Email">
-				</div>
-				<div class="form-group btn-container">
-					<button class="btn btn-primary btn-block">
-						<i class="fa fa-unlock fa-lg fa-fw"></i>RESET
-					</button>
-				</div>
-				<div class="form-group mt-3">
-					<p class="semibold-text mb-0">
-						<a href="#" data-toggle="flip"><i
-							class="fa fa-angle-left fa-fw"></i> Back to Login</a>
-					</p>
-				</div>
-			</form>
-		</div>
-	</section>
+	
+<div class="container">
+   <section id="formHolder">
+      <div class="row">
+         <!-- Logo  -->
+         <div class="col-sm-6 brand">
+            <div class="heading">
+                <img src="${urlrecursos}/images/logoLogin.png">
+            </div>
+         </div>
+         
+         <div class="col-sm-6 form">
+
+            <!-- Recuperacion -->
+            <div class="login form-peice switched">
+               <form class="login-form" action="#" method="post">
+                   <div class="form-group">
+                       <p>
+                           Te envieremos un email de recuperacion de contraseña.
+                       </p>
+                   </div>
+                  <div class="form-group">
+                     <label for="name">Ingresar e-mail</label>
+                     <input type="email" class="email" name="loginemail" id="emailR">
+                     <span class="error"></span>
+                  </div>
+                  <div class="CTA">
+                     <input type="submit" value="Enviar" id="remember">
+                     <a href="#" class="switch">VOLVER A LOGIN</a>
+                  </div>
+               </form>
+            </div>
+
+
+            <!-- Login -->
+            <div class="signup form-peice">         
+               <form class="signup-form" action="" method="POST">
+                   <div class="form-group">
+                     <label for="loginemail">Usuario</label>
+                     <input type="text" class="name" name="usuario" id="usuario" required>
+                     <input type="hidden" value="1" name="opc">
+                      <span class="error"></span>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="loginPassword">Contraseña</label>
+                     <input type="password" class="pass" name="password" id="password" required>
+                     <span class="error"></span>
+                  </div>
+                   
+                   <div class="alert alert-danger" style="margin-top: 100px; display: none;">
+                    <strong>Atencion!</strong> Datos incorectos</div>
+                              
+                  <div class="dropdown">   
+                       <select class="select" name="sedet" id="sedet">
+		            <option> Seleccione la sede: </option>
+                            <option>Tienda1</option>
+		            <option>Tienda2</option>
+		        </select>	    
+                  </div>  
+                   
+                  <div class="CTA">
+                      <input type="submit" value="Ingresar" name="btnIniciar" id="Login">
+                     <a href="#" class="switch">Olvidaste tu contraseña?</a>
+                  </div>
+               </form>
+            </div>
+            
+            
+         </div>
+      </div>
+
+   </section>
+</div>
+
 </body>
 </html>
