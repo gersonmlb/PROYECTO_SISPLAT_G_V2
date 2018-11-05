@@ -20,59 +20,78 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-file" style="font-size: 38px; color: orange;"></i> Registrar Compras
+				<i class="fa fa-dashboard"></i> Compras
 			</h1>
+			<p>Start a beautiful journey here</p>
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
 			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-			<li class="breadcrumb-item"><a href="#">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
 		</ul>
 	</div>
 	<div class="row">
 		<div class="col-md-12 row">
 			<div class="tile col-md-6">
-				<div class="tile-body">Registrar compras registradas</div>
+				<div class="tile-body">Crear lista para las compras</div>
 			</div>
 		</div>
+
 	</div>
-	<div>
-		<div style="width: 300px; position: relative; left: 70%;">
-			<li class="app-search"><input style="width: 300px;"
-				class="app-search__input" type="search" placeholder="Search">
-				<button class="app-search__button">
-					<i class="fa fa-search"></i>
-				</button></li>
-		</div>
-		<div class="table-responsive"
-			style="background-color: white; margin-top: 5%;">
-			<table class="table table-hover">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>Nombre</th>
-						<th>Fecha</th>
-						<th colspan="2">Acción</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>Lista 1</td>
-						<td>5/11/2018</td>
-						<td><a href="#" class="fa fa-eye"></a></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-	<br />
-	<div class="row">
-		<div class="row col-md-12">
-			<div class="row col-md-8"></div>
-			<div class="col-md-4">
-				<button type="button" class="btn btn-lg btn-primary">Siguiente</button>
-				<span class="btn btn-secondary btn-lg"><a
-					style="color: white;" href="/SISPLAT-G/Compras">Salir </a></span>
+
+	<div class="">
+		<div class="content-wrapper">
+			<div class="content-header row"></div>
+			<div class="content-body">
+				<!-- stats -->
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-lg-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="card-block">
+									<div class="media">
+										<i class="fa fa-clipboard" style="font-size:48px;color:orange;"></i>
+										<div class="col-xl-1"></div>
+										<div class="media-body text-xs-left">
+											<h3 class="pink">10</h3>
+											<span><a style="color: black"
+												href="/SISPLAT-G/Crear-Orden-Compra">Crear Orden de
+													Compra </a></span>
+										</div>
+										<div class="media-right media-middle">
+											<i class="icon-bag2 pink font-large-2 float-xs-right"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-6 col-xs-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="card-block">
+									<div class="media">
+										<i class="fa fa-file" style="font-size:48px;color:orange;"></i>
+										<div class="col-xl-1"></div>
+										<div class="media-body text-xs-left">
+											<h3 class="deep-orange">10</h3>
+											<span><a style="color: black"
+												href="/SISPLAT-G/Registrar-Orden-de-Compra">Registrar
+													Orden de Compra </a></span>
+										</div>
+										<div class="media-right media-middle">
+											<i
+												class="icon-diagram deep-orange font-large-2 float-xs-right"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/ stats -->
+
+
 			</div>
 		</div>
 	</div>

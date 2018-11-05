@@ -20,7 +20,8 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-file" style="font-size: 38px; color: orange;"></i> Registrar Compras
+				<i class="fa fa-clipboard" style="font-size: 48px; color: orange;"></i>
+				Crear Orden Compra
 			</h1>
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
@@ -31,35 +32,54 @@
 	<div class="row">
 		<div class="col-md-12 row">
 			<div class="tile col-md-6">
-				<div class="tile-body">Registrar compras registradas</div>
+				<div class="tile-body">Crear lista para las compras</div>
 			</div>
 		</div>
+
 	</div>
+
 	<div>
-		<div style="width: 300px; position: relative; left: 70%;">
-			<li class="app-search"><input style="width: 300px;"
-				class="app-search__input" type="search" placeholder="Search">
-				<button class="app-search__button">
-					<i class="fa fa-search"></i>
-				</button></li>
+		<div class="row">
+		<div style="width: 300px; position: relative; left: 2%;">
+		Colocar nombre  a lista
+				<li class="app-search"><input style="width: 300px;"	class="app-search__input" 
+				type="search" placeholder="Nombre"></li>
+			</div>
+			<div style="width: 300px; position: relative; left: 30%;">
+				<li class="app-search"><input style="width: 300px;"
+					class="app-search__input" type="search" placeholder="Search">
+					<button class="app-search__button">
+						<i class="fa fa-search"></i>
+					</button></li>
+			</div>
 		</div>
 		<div class="table-responsive"
-			style="background-color: white; margin-top: 5%;">
+			style="background-color: white; margin-top: 2%;">
 			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th>#</th>
 						<th>Nombre</th>
-						<th>Fecha</th>
-						<th colspan="2">Acción</th>
+						<th>Descripción</th>
+						<th colspan="2" style="width: 100px;">Accion</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>1</td>
-						<td>Lista 1</td>
-						<td>5/11/2018</td>
-						<td><a href="#" class="fa fa-eye"></a></td>
+						<td>Collar de plata</td>
+						<td>Collar hecho a base de plata y con materiales sacados de
+							un volcan inactivo donde vivio un gran dragon</td>
+						<td><div class="row">
+								<div class="col-xl-3 col-lg-6 col-lg-12">
+									<a href="#" class="fa fa-check-circle"
+										style="font-size: 30px; color: grey;"></a>
+								</div>
+								<div class="col-xl-3 col-lg-6 col-lg-12">
+									<input type="number" id="income" name="income" value="1"
+										style="width: 50px;">
+									<div></div>
+								</div></td>
 					</tr>
 				</tbody>
 			</table>

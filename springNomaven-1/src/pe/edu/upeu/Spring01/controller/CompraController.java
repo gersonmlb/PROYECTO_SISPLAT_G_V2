@@ -5,19 +5,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class CompraController {
+	
+	
+	@GetMapping("/Crear-Orden-Compra")
+	public String crearordencompra() {
+		return "com_main_listascompras";
+	}
+
+	@GetMapping("/Registrar-Orden-de-Compra")
+	public String registrarordencompra() {
+		return "com_main_registrarcompra";
+	}
+	@GetMapping("/Aceptar-Orden-de-Compra")
+	public String registrarordencompra2() {
+		return "com_main_listascompras2";
+	}
 	/*
-	@GetMapping("/ped_main_pedido")
-	public String mainpedido() {
-		return "ped_main_pedido";
-	}
-	@GetMapping("/ped_lista_nuevo_pedido")
-	public String listanuevo_pedido() {
-		return "ped_lista_nuevo_pedido";
-	}
-	@GetMapping("/ped_nuevo_pedido")
-	public String pedido_nuevo() {
-		return "ped_nuevo_pedido";
-	}
 	@GetMapping("/ped_lista_hoja_contrato")
 	public String lista_hoja_contrato() {
 		return "ped_lista_hoja_contrato";
