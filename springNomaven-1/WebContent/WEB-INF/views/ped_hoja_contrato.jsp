@@ -35,7 +35,7 @@
 				<div class="form-group row">
 					<label class="col-lg-4 col-form-label form-control-label">ESCRIBA
 						EL CODIGO</label> <br>
-					<div class="col-lg-6">
+					<div class="col-lg-6">	
 						<input class="form-control" type="text" placeholder="">
 					</div>
 					<div class="col-lg-2">
@@ -47,8 +47,6 @@
 			<div class="col-sm-3"></div>
 		</div>
 	</center>
-
-
 
 
 	<div>
@@ -109,6 +107,13 @@
 					<td>John</td>
 					<td>Doe</td>
 				</tr>
+				<tr>
+					<td>2</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
@@ -143,31 +148,32 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-12">
-		<div class="col-sm-4" style="float: left;">
-			<button class="btn btn-danger">CANCELAR CONTRATO</button>
-		</div>
-		<div class="col-sm-4" style="float: left;">
-			<label class="col-lg-6 col-form-label form-control-label"
-				style="float: left;">TIPO PAGO</label>
-			<div class="col-lg-6" style="float: left;">
-				<select>
-					<option value="Contado">CONTADO</option>
-					<option value="Credito">CREDITO</option>
-				</select>
+	<br>
+	<br>
+	<center>
+		<div class="col-sm-12">
 
+			<div class="col-sm-4" style="float: left;">
+				<button class="btn btn-danger">CANCELAR CONTRATO</button>
+			</div>
+			<div class="col-sm-4" style="float: left;">
+				<label class="col-lg-6 col-form-label form-control-label"
+					style="float: left;">TIPO DE PAGO:</label>
+				<div class="col-lg-6" style="float: left;">
+					<select class="form-control">
+						<option value="Contado">CONTADO</option>
+						<option value="Credito">CREDITO</option>
+					</select>
+
+				</div>
+			</div>
+			<div class="col-sm-4" style="float: left;">
+				<button class="btn btn-success">REALIZAR CONTRATO</button>
 			</div>
 		</div>
 
 
-	</div>
-	<div class="col-sm-4" style="float: left;">
-		<button class="btn btn-success">REALIZAR CONTRATO</button>
-	</div>
-
-	</div>
-
-
+	</center>
 
 
 

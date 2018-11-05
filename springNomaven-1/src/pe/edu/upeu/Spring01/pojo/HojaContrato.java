@@ -15,6 +15,7 @@ public class HojaContrato {
 	public HojaContrato() {
 		super();
 	}
+	
 
 	public HojaContrato(int idhojacontrato, int idempleado, int idpedido, String fecha, String codigo, double total,
 			double adelanto, double mitadtotal, String estado) {

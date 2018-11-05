@@ -20,6 +20,83 @@ public class Venta {
 	public Venta() {
 	 super();
 	}
+	
+
+	public Venta(int idventa, int idempleado, int idsede, int idcliente, int idhct, String fecha, String tipopago,
+			double total, double igv, double subtotal, String tipodoc, String numero, String serie, String estado) {
+		super();
+		this.idventa = idventa;
+		this.idempleado = idempleado;
+		this.idsede = idsede;
+		this.idcliente = idcliente;
+		this.idhct = idhct;
+		this.fecha = fecha;
+		this.tipopago = tipopago;
+		this.total = total;
+		this.igv = igv;
+		this.subtotal = subtotal;
+		this.tipodoc = tipodoc;
+		this.numero = numero;
+		this.serie = serie;
+		this.estado = estado;
+	}
+
+
+	public Venta(int idventa, int idempleado, int idsede, int idcliente, int idhct, String fecha, String tipopago,
+			double total, String tipodoc, String numero, String serie, String estado) {
+		super();
+		this.idventa = idventa;
+		this.idempleado = idempleado;
+		this.idsede = idsede;
+		this.idcliente = idcliente;
+		this.idhct = idhct;
+		this.fecha = fecha;
+		this.tipopago = tipopago;
+		this.total = total;
+		this.tipodoc = tipodoc;
+		this.numero = numero;
+		this.serie = serie;
+		this.estado = estado;
+	}
+
+	public Venta(int idventa, int idempleado, int idsede, int idcliente, String fecha, String tipopago, double total,
+			double igv, double subtotal, String tipodoc, String numero, String serie, String estado) {
+		super();
+		this.idventa = idventa;
+		this.idempleado = idempleado;
+		this.idsede = idsede;
+		this.idcliente = idcliente;
+		this.fecha = fecha;
+		this.tipopago = tipopago;
+		this.total = total;
+		this.igv = igv;
+		this.subtotal = subtotal;
+		this.tipodoc = tipodoc;
+		this.numero = numero;
+		this.serie = serie;
+		this.estado = estado;
+	}
+
+	
+	
+
+	public Venta(int idventa, int idempleado, int idsede, int idcliente,  String fecha, String tipopago,
+			double total, String tipodoc, String numero, String serie, String estado) {
+		super();
+		this.idventa = idventa;
+		this.idempleado = idempleado;
+		this.idsede = idsede;
+		this.idcliente = idcliente;
+		this.idhct = idhct;
+		this.fecha = fecha;
+		this.tipopago = tipopago;
+		this.total = total;
+		this.tipodoc = tipodoc;
+		this.numero = numero;
+		this.serie = serie;
+		this.estado = estado;
+	}
+
 
 	public int getIdventa() {
 		return idventa;

@@ -43,12 +43,11 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Dni</th>
-					<th>Type</th>
-					<th>User Name</th>
-					<th>Password</th>
+					<th>Fecha</th>
+					<th>Codigo</th>
+					<th>Total</th>
+					<th>Adelanto</th>
+					<th>Mitad Total</th>
 					<th colspan="2">Action</th>
 				</tr>
 			</thead>
@@ -60,7 +59,6 @@
 					<td>john@example.com</td>
 					<td>John</td>
 					<td>Doe</td>
-					<td>john@example.com</td>
 					<td>john@example.com</td>
 				</tr>
 			</tbody>

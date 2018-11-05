@@ -1,7 +1,19 @@
 package pe.edu.upeu.Spring01.controller;
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.SQLException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.google.gson.Gson;
+
+import pe.edu.upeu.Spring01.pojo.Usuario;
 
 @Controller
 public class PedidoController {
@@ -38,6 +50,29 @@ public class PedidoController {
 	public String comprobante_pedido() {
 		return "ped_comprobante_pedido";
 	}
+	
+	
+	private Gson g = new Gson();
+	@RequestMapping(value = "/hc")
+	public void listarusuarios(HttpServletRequest request, HttpServletResponse response)
+			throws IOException, SQLException {
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		int op = Integer.parseInt(request.getParameter("opc"));
+		switch (op) {
+		case 1:
+			
+			
+			break;
+		
+		}
 
+	
+	
+	
+	
+	
+	
+	}
 	
 }
