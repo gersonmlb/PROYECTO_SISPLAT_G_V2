@@ -81,7 +81,7 @@
 	</div>
 			<div class="col-md-4">
 				<button type="button" class="btn btn-lg btn-primary" >Siguiente</button>
-				<button type="button" class="btn btn-secondary btn-lg" >Salir</button>
+				<button type="button" class="btn btn-secondary btn-lg" href="/SISPLAT-G/Compras" >Salir</button>
 			</div>
 		</div> 
 	</div>

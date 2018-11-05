@@ -8,19 +8,15 @@ public class CompraController {
 	
 	
 	@GetMapping("/Crear-Orden-Compra")
-	public String mainpedido() {
+	public String crearordencompra() {
 		return "com_main_listascompras";
 	}
-	
+
 	@GetMapping("/Registrar-Orden-de-Compra")
-	public String listanuevo_pedido() {
+	public String registrarordencompra() {
 		return "com_main_registrarcompra";
 	}
 	/*
-	@GetMapping("/ped_nuevo_pedido")
-	public String pedido_nuevo() {
-		return "ped_nuevo_pedido";
-	}
 	@GetMapping("/ped_lista_hoja_contrato")
 	public String lista_hoja_contrato() {
 		return "ped_lista_hoja_contrato";

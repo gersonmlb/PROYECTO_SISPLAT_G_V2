@@ -70,7 +70,7 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
-					<td><a href="#" class="fa fa-check-circle"></a><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
+					<td><a href="#" class="fa fa-check-circle" style="font-size:24px;color:grey;"></a><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
 				</tr>
 			</tbody>
 		</table>
@@ -83,7 +83,7 @@
 	</div>
 			<div class="col-md-4">
 				<button type="button" class="btn btn-lg btn-primary" >Siguiente</button>
-				<button type="button" class="btn btn-secondary btn-lg" >Salir</button>
+				<button type="button" class="btn btn-secondary btn-lg" href="/SISPLAT-G/Compras">Salir</button>
 			</div>
 		</div> 
 	</div>
