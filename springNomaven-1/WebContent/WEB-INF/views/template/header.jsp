@@ -120,16 +120,8 @@
 						class="icon fa fa-circle-o"></i>Ventas</a></li>
 				<li><a class="treeview-item" href="/SISPLAT-G/ped_main_pedido"><i
 						class="icon fa fa-circle-o"></i>Nuevo pedido</a></li>
-				<li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview">
-				<i class="icon fa fa-circle-o"></i><span class="app-menu__label">
-						Compras</span></a>
-					<ul>
-					<li><a class="treeview-item" href="/SISPLAT-G/main_compras"><i
-						class="icon fa fa-circle-o"></i>Lista Compras</a></li>
-					<li><a class="treeview-item" href="/SISPLAT-G/main_registrarcompra"><i
-						class="icon fa fa-circle-o"></i>Registrar Compra</a></li>
-					</ul>
-						</li>
+				<li><a class="treeview-item" href="/SISPLAT-G/Compras"><i
+						class="icon fa fa-circle-o"></i>Compras</a></li>
 			</ul></li>
 		<li class="treeview"><a class="app-menu__item" href="#"
 			data-toggle="treeview"><i class="app-menu__icon fa fa-registered"></i><span
@@ -159,7 +151,7 @@
 			<ul class="treeview-menu">
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i>Productos</a></li>
-				<li><a class="treeview-item" href="/SISPLAT-G/sede"><i
+				<li><a class="treeview-item" href="/SISPLAT-G/Registrar_Producto"><i
 						class="icon fa fa-circle-o"></i>Sedes</a></li>
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i> Materia prima</a></li>
