@@ -12,6 +12,7 @@
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <spring:url value="/recursos" var="urlrecursos"></spring:url>
 <link href="${urlrecursos}/css/template.css" rel="stylesheet">
+<link href="${urlrecursos}/sweetalert/sweetalert2.min.css" rel="stylesheet">
 <style type="text/css">
 * {
 	box-sizing: border-box;
@@ -55,7 +56,7 @@ button {
 					<input type="text" placeholder="Search..." />
 				</div>
 				<div>
-					<button>Search</button>
+					<button onclick="prueba()">Search</button>
 				</div>
 			</section>
 
@@ -85,8 +86,10 @@ button {
 	<script src="${urlrecursos}/js/popper.min.js"></script>
 	<script src="${urlrecursos}/js/bootstrap.min.js"></script>
 	<script src="${urlrecursos}/js/main.js"></script>
+	<script src="${urlrecursos}/javascript/venta.js"></script>
 	<!-- The javascript plugin to display page loading on top-->
 	<script src="${urlrecursos}/js/plugins/pace.min.js"></script>
+	<script src="${urlrecursos}/sweetalert/sweetalert2.min.js"></script>
 	<!-- Page specific javascripts-->
 	<!-- Google analytics script-->
 	<script type="text/javascript">
