@@ -51,7 +51,7 @@
 									<div class="media">
 										<div class="media-body text-xs-left">
 											<h3 class="pink">10</h3>
-											<span><a style="color: black" href="/SISPLAT-G/ped_lista_nuevo_pedido">Crear Orden de Compra </a></span>
+											<span><a style="color: black" href="/SISPLAT-G/Crear-Orden-Compra">Crear Orden de Compra </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i class="icon-bag2 pink font-large-2 float-xs-right"></i>
@@ -68,7 +68,7 @@
 									<div class="media">
 										<div class="media-body text-xs-left">
 											<h3 class="deep-orange">10</h3>
-											<span><a style="color: black" href="/SISPLAT-G/ped_lista_hoja_contrato">Registrar Orden de Compra </a></span>
+											<span><a style="color: black" href="/SISPLAT-G/Registrar-Orden-de-Compra">Registrar Orden de Compra </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i
