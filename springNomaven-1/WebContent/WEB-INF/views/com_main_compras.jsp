@@ -34,7 +34,7 @@
 			<div class="tile col-md-6">
 				<div class="tile-body">Create a beautiful dashboard</div>
 			</div>
-		</div>
+		</div> 
 
 	</div>
 
