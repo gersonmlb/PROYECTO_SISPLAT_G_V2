@@ -3,71 +3,108 @@
 <spring:url value="/" var="urlRoot" />
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>SisPlat-G</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <spring:url value="/recursos" var="urlrecursos"></spring:url>
-	<link href="${urlrecursos}/css/template.css" rel="stylesheet">
-  </head>
-  <body class="app sidebar-mini rtl">
-  <!-- Navbar-->
-  <jsp:include page="template/header.jsp"></jsp:include>  
-    <main class="app-content">
-      <div class="app-title">
-        <div>
-          <h1><i class="fa fa-dashboard"></i> Ventas</h1>
-          <p>Start a beautiful journey here</p>
-        </div>
-        <ul class="app-breadcrumb breadcrumb">
-          <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-          <li class="breadcrumb-item"><a href="#">Blank Page</a></li>
-        </ul>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="tile">
-            <div class="tile-body">Create a beautiful dashboard</div>
-          </div>
-        </div>
-      </div>
-      <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-    </main>
-    <!-- Essential javascripts for application to work-->
-    <script src="${urlrecursos}/js/jquery-3.2.1.min.js"></script>
-    <script src="${urlrecursos}/js/popper.min.js"></script>
-    <script src="${urlrecursos}/js/bootstrap.min.js"></script>
-    <script src="${urlrecursos}/js/main.js"></script>
-    <!-- The javascript plugin to display page loading on top-->
-    <script src="${urlrecursos}/js/plugins/pace.min.js"></script>
-    <!-- Page specific javascripts-->
-    <!-- Google analytics script-->
-    <script type="text/javascript">
-      if(document.location.hostname == 'pratikborsadiya.in') {
-      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      	ga('create', 'UA-72504830-1', 'auto');
-      	ga('send', 'pageview');
-      }
-    </script>
-  </body>
+<head>
+<title>SisPlat-G</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<spring:url value="/recursos" var="urlrecursos"></spring:url>
+<link href="${urlrecursos}/css/template.css" rel="stylesheet">
+<style type="text/css">
+* {
+	box-sizing: border-box;
+}
+
+section {
+	width: 100%;
+	display: table;
+	padding: 1em 0 0;
+}
+
+div {
+	display: table-cell;
+	width: 100%;
+}
+
+input {
+	width: 100%;
+	padding: .5em 1em;
+}
+
+button {
+	color: black;
+	padding: .5em 1em;
+	white-space: nowrap;
+	margin: 0 0 0 1em;
+}
+</style>
+</head>
+<body class="app sidebar-mini rtl">
+	<!-- Navbar-->
+	<jsp:include page="template/header.jsp"></jsp:include>
+	<main class="app-content">
+
+	<div class="col-sm-12">
+		<div class="col-sm-8"
+			style="background-color: green; float: left; height: 80%;">
+			<h1>Short Word</h1>
+			<section>
+				<div>
+					<input type="text" placeholder="Search..." />
+				</div>
+				<div>
+					<button>Search</button>
+				</div>
+			</section>
+
+
+			<h1>Long Word</h1>
+			<section>
+				<div>
+					<input type="text" placeholder="Search..." />
+				</div>
+				<div>
+					<button>Super Long Word For Search Button</button>
+				</div>
+			</section>
+
+		</div>
+
+		<div class="col-sm-4"
+			style="background-color: blue; float: left; height: 80px;">
+			<label style="margin-top: 10px;">CODIGO PEDIDO</label>
+		</div>
+	</div>
+
+
+	</main>
+	<!-- Essential javascripts for application to work-->
+	<script src="${urlrecursos}/js/jquery-3.2.1.min.js"></script>
+	<script src="${urlrecursos}/js/popper.min.js"></script>
+	<script src="${urlrecursos}/js/bootstrap.min.js"></script>
+	<script src="${urlrecursos}/js/main.js"></script>
+	<!-- The javascript plugin to display page loading on top-->
+	<script src="${urlrecursos}/js/plugins/pace.min.js"></script>
+	<!-- Page specific javascripts-->
+	<!-- Google analytics script-->
+	<script type="text/javascript">
+		if (document.location.hostname == 'pratikborsadiya.in') {
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script',
+					'//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', 'UA-72504830-1', 'auto');
+			ga('send', 'pageview');
+		}
+	</script>
+</body>
 </html>

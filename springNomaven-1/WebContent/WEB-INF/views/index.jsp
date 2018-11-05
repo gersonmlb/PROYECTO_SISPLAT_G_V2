@@ -51,7 +51,7 @@
 
             <!-- Login -->
             <div class="signup form-peice">         
-               <form class="signup-form" action="" method="POST">
+               <form class="signup-form">
                    <div class="form-group">
                      <label for="loginemail">Usuario</label>
                      <input type="text" class="name" name="usuario" id="usuario" required>
@@ -77,8 +77,8 @@
                   </div>  
                    
                   <div class="CTA">
-                      <input type="submit" value="Ingresar" name="btnIniciar" id="Login">
-                     <a href="#" class="switch">Olvidaste tu contraseña?</a>
+                      <input type="submit" value="Ingresar" href="SISPLAT-G/home" name="btnIniciar" id="Login" >
+                     <a href="home" class="switch">Olvidaste tu contraseña?</a>
                   </div>
                </form>
             </div>

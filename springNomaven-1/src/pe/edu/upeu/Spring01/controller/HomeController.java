@@ -11,6 +11,7 @@ public class HomeController {
 	public String index() {
 		return "index";
 	}
+	
 	@PostMapping("/home")
 	public String main1() {
 		return "principal";
