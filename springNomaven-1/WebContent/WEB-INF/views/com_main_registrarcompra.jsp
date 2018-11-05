@@ -35,9 +35,7 @@
 				<div class="tile-body">Crear lista para las compras</div>
 			</div>
 		</div> 
-
 	</div>
-
 	<div>
 		<div style="width: 300px; position:relative; left: 70%; ">
 			<li class="app-search"><input style="width: 300px;" class="app-search__input"
@@ -70,31 +68,22 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
-					<td><a href="#" class="fa fa-check-circle"></a><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
-				</tr>
-				<tr>
-					<td>Mary</td>
-					<td>Moe</td>
-					<td>mary@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>Julyss</td>
-					<td>Dooley</td>
-					<td>july@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td><input type="number" id="income" name="income" value="10"></td>
+					<td><a href="#" class="fa fa-eye"></a></td>
 				</tr>
 			</tbody>
 		</table>
 		</div>
+	</div>
+	<br/>
+	<div class="row">
+	<div class="row col-md-12">
+	<div class="row col-md-8">
+	</div>
+			<div class="col-md-4">
+				<button type="button" class="btn btn-lg btn-primary" >Siguiente</button>
+				<button type="button" class="btn btn-secondary btn-lg" >Salir</button>
+			</div>
+		</div> 
 	</div>
 	</main>
 	<!-- Essential javascripts for application to work-->
