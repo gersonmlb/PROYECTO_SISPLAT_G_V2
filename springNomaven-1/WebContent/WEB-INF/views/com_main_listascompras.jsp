@@ -20,13 +20,12 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-dashboard"></i> Compras
+				<i class="fa fa-clipboard" style="font-size:48px;color:orange;"></i> Crear Orden Compra
 			</h1>
-			<p>Start a beautiful journey here</p>
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
 			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
+			<li class="breadcrumb-item"><a href="#">HOME</a></li>
 		</ul>
 	</div>
 	<div class="row">
@@ -52,25 +51,17 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Dni</th>
-					<th>Type</th>
-					<th>User Name</th>
-					<th>Password</th>
-					<th colspan="2">Action</th>
+					<th>Nombre</th>
+					<th>Descripción</th>
+					<th colspan="2">Accion</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>1</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td><a href="#" class="fa fa-check-circle" style="font-size:24px;color:grey;"></a><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
+					<td>Collar de plata </td>
+					<td>Collar hecho a base de plata y con materiales sacados de un volcan inactivo donde vivio un gran dragon</td>
+					<td><a href="#" class="fa fa-check-circle" style="font-size:24px;color:grey;"></a><pre></pre><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
 				</tr>
 			</tbody>
 		</table>
@@ -83,7 +74,7 @@
 	</div>
 			<div class="col-md-4">
 				<button type="button" class="btn btn-lg btn-primary" >Siguiente</button>
-				<button type="button" class="btn btn-secondary btn-lg" href="/SISPLAT-G/Compras">Salir</button>
+				<span class="btn btn-secondary btn-lg"><a style="color: white;" href="/SISPLAT-G/Compras">Salir </a></span>
 			</div>
 		</div> 
 	</div>
