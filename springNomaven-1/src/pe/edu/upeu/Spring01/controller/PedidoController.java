@@ -26,11 +26,6 @@ public class PedidoController {
 		return "ped_hoja_contrato";
 	}
 	
-	@GetMapping("/ped_lista_orden_trabajo")
-	public String listaorden_trabajo() {
-		return "ped_lista_orden_trabajo";
-	}
-	
 	@GetMapping("/ped_orden_trabajo")
 	public String orden_trabajo() {
 		return "ped_orden_trabajo";

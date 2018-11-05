@@ -89,7 +89,7 @@
 		</div>
 	</div>
 	<div class="table-responsive"
-		style="background-color: white; margin-top: 20%;">
+		style="background-color: white;">
 		<table class="table table-hover">
 			<thead>
 				<tr>
