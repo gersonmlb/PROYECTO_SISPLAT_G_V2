@@ -24,55 +24,38 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-user fa-lg"></i> Lista de Pedidos
+				<i class="fa fa-user fa-lg"></i>Hoja Contrato
 			</h1>
+		
 		</div>
-
 	</div>
-	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary"> <a href="SISTPLAT-G/ped_nuevo_pedido">  </a> Add Order  </button>
-
-
+	
 	<div class="table-responsive"
 		style="background-color: white; margin-top: 5%;">
 		<table class="table table-hover">
 			<thead>
 				<tr>
-					<th>Empleado</th>
-					<th>Nombre Pedido</th>
-					<th>Fecha</th>
-					<th>Codigo</th>
-					<th>Total</th>
-					<th>Adelanto</th>
-					<th>Mitad Total</th>
-					<th>Estado</th>
+					<th>#</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Dni</th>
+					<th>Type</th>
+					<th>User Name</th>
+					<th>Password</th>
 					<th colspan="2">Action</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
+					<td>1</td>
 					<td>John</td>
 					<td>Doe</td>
-					<td>jonae.com</td>
+					<td>john@example.com</td>
 					<td>John</td>
 					<td>Doe</td>
-					<td>jxpe.com</td>
-					<td>john@exam</td>
-					<td>Doe</td>
-					<td>john@e</td>
+					<td>john@example.com</td>
+					<td>john@example.com</td>
 				</tr>
-				<tr>
-					<td>John</td>
-					<td>Doe</td>
-					<td>jonae.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>jxpe.com</td>
-					<td>john@exam</td>
-					<td>Doe</td>
-					<td>john@e</td>
-				</tr>
-		
 			</tbody>
 		</table>
 	</div>

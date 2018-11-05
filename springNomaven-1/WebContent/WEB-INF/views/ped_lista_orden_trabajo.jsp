@@ -24,17 +24,13 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-user fa-lg"></i> Lista de Hojas de Contrato 
+				<i class="fa fa-user fa-lg"></i> Lista de Ordenes de Trabajo
 			</h1>
-			<p>Start a beautiful journey here</p>
+			
 		</div>
-		<ul class="app-breadcrumb breadcrumb">
-			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
-		</ul>
 	</div>
 	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary" > Add Hoja Contrato <a href="SISPLAT-G/ped_hoja_contrato"></a>  </button>
+	<button type="button" class="btn btn-primary">Add Order Work <a href="SISPLAT-G/ped_orden_trabajo"></a> </button>
 
 
 	<div class="table-responsive"
@@ -61,6 +57,26 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>Mary</td>
+					<td>Moe</td>
+					<td>mary@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>July</td>
+					<td>Dooley</td>
+					<td>july@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>Doe</td>
 					<td>john@example.com</td>
 				</tr>
 			</tbody>

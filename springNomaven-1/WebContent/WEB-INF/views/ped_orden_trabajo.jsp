@@ -31,16 +31,20 @@
 			<h1>
 				<i class="fa fa-user fa-lg"></i> Orden Trabajo
 			</h1>
-			<p>Start a beautiful journey here</p>
 		</div>
 	</div>
 
 	<div>
 		<div class="col-sm-3"
 			style="background-color: green; float: left; height: 80px;">
-			<label style="margin-top: 10px; font-family: Century Gothic;">
-				NOMBRE CLIENTE </label> <input style="">
-
+			<div class="form-group row">
+				<label class="col-lg-3 col-form-label form-control-label">First
+					name</label>
+					<br>
+				<div class="col-lg-9">
+					<input class="form-control" type="text" placeholder="Jose Armando">
+				</div>
+			</div>
 		</div>
 		<div class="col-sm-3"
 			style="background-color: blue; float: left; height: 80px;">
@@ -82,26 +86,6 @@
 					<td>John</td>
 					<td>Doe</td>
 					<td>john@example.com</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>Mary</td>
-					<td>Moe</td>
-					<td>mary@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>July</td>
-					<td>Dooley</td>
-					<td>july@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
 					<td>john@example.com</td>
 				</tr>
 			</tbody>
