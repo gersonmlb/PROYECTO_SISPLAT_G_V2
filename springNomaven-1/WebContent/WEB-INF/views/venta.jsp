@@ -16,6 +16,8 @@
 	crossorigin="anonymous">
 <spring:url value="/recursos" var="urlrecursos"></spring:url>
 <link href="${urlrecursos}/css/template.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="${urlrecursos}/sweetalert/sweetalert2.min.css">
 <style type="text/css">
 .letra {
 	font-family: Century Gothic;
@@ -35,31 +37,81 @@
 	</div>
 
 	<div>
-		<div class="col-sm-9"
+		<div class="col-sm-4"
 			style="background-color: green; float: left; height: 100%;">
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label form-control-label">First
-					name</label>
-				<div class="col-lg-3">
-					<input class="form-control" type="text"
-						placeholder="Ingrese DNI o RUC">
+				<div class="col-lg-12">
+					<div class="input-group" style="width: 100%;">
+						<input type="text" class="form-control"
+							placeholder="DNI o RUC del cliente">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-search"
+								aria-hidden="true"></i></span>
+						</div>
+					</div>
 				</div>
-				<div class="col-lg-3">
-					<input class="form-control" type="text" placeholder="Jose Armando">
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-12">
+					<label>Nombre del cliente</label> <input type="text"
+						class="form-control" placeholder="Yaritza Casildo Chanducas">
 				</div>
-				<div class="col-lg-3">
-					<input class="form-control" type="text" placeholder="Jose Armando">
-				</div>
-				<div class="col-lg-3">
-					<input class="form-control" type="text" placeholder="Jose Armando">
+			</div>
+			<br>
+			<div class="form-group row">
+				<div class="col-lg-12">
+					<div class="input-group" style="width: 100%;">
+						<input type="text" class="form-control"
+							placeholder="Código del producto">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-search"
+								aria-hidden="true" onclick="prueba()"></i></span>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3"
-			style="background-color: purple; float: left; height: 100%;">
+		<div class="col-sm-4"
+			style="background-color: yellow; float: left; height: 100%;">
+			<div class="form-group row">
+				<div class="col-lg-12">
+					<label>Nombre del producto</label> <input type="text"
+						class="form-control" placeholder="Collar de oro">
+				</div>
+				<br>
+				<div class="col-lg-12">
+					<label>Precio x Unidad</label> <input type="text"
+						class="form-control" placeholder="S/. 1000">
+				</div>
+				<br>
+				<div class="col-lg-12">
+					<label>Stock</label> <input type="text" class="form-control"
+						placeholder="5">
+				</div>
+				<div class="col-lg-12"><input id="GuardarEmpleado" type="button"
+						class="btn btn-primary" value="Agregar al carrito">
+				</div>
+
+			</div>
+		</div>
+		<div class="col-sm-4"
+			style="background-color: white; float: left; height: 100%;">
+			<div class="form-group row" style="margin-top: 10%;">
+				<div class="col-lg-6">
+					<label>Serie</label> <input type="text" class="form-control"
+						placeholder="5">
+
+				</div>
+				<div class="col-lg-6">
+					<label>N° comprobante</label> <input type="text" class="form-control"
+						placeholder="5">
+
+				</div>
+			</div>
 			<div class="form-group row">
 				<div class="col-lg-6">
-					<label for="sel1">Select list:</label> <select class="form-control"
+					<label for="sel1">Tipo pago:</label> <select class="form-control"
 						id="sel1">
 						<option>1</option>
 						<option>2</option>
@@ -69,7 +121,7 @@
 
 				</div>
 				<div class="col-lg-6">
-					<label for="sel1">Select list:</label> <select class="form-control"
+					<label for="sel1">Tipo documento:</label> <select class="form-control"
 						id="sel1">
 						<option>1</option>
 						<option>2</option>
@@ -78,21 +130,19 @@
 					</select>
 
 				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
-					<label for="sel1">Select list:</label> <select class="form-control"
-						id="sel1">
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-					</select>
-
+					<label>TOTAL A PAGAR</label> <input type="text"
+						class="form-control" placeholder="Collar de oro">
 				</div>
+				<div class="col-lg-3"></div>
 			</div>
 		</div>
 	</div>
 	<div class="table-responsive"
-		style="background-color: white; margin-top: 20%;">
+		style="background-color: white; margin-top: 25%;">
 		<table class="table table-hover">
 			<thead>
 				<tr>
@@ -136,13 +186,15 @@
 
 
 	</main>
-	<!-- Essential javascripts for application to work-->
+	<!-- Essential	 javascripts for application to work-->
 	<script src="${urlrecursos}/js/jquery-3.2.1.min.js"></script>
 	<script src="${urlrecursos}/js/popper.min.js"></script>
 	<script src="${urlrecursos}/js/bootstrap.min.js"></script>
+	<script src="${urlrecursos}/sweetalert/sweetalert2.min.js"></script>
 	<script src="${urlrecursos}/js/main.js"></script>
 	<!-- The javascript plugin to display page loading on top-->
 	<script src="${urlrecursos}/js/plugins/pace.min.js"></script>
+
 	<!-- Page specific javascripts-->
 	<!-- Google analytics script-->
 	<script type="text/javascript">
@@ -160,6 +212,10 @@
 					'//www.google-analytics.com/analytics.js', 'ga');
 			ga('create', 'UA-72504830-1', 'auto');
 			ga('send', 'pageview');
+		}
+
+		function prueba() {
+			swal('Good job!', 'You clicked the button!', 'success')
 		}
 	</script>
 </body>
