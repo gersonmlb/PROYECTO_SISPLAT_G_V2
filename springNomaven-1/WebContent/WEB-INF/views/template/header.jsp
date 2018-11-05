@@ -120,8 +120,16 @@
 						class="icon fa fa-circle-o"></i>Ventas</a></li>
 				<li><a class="treeview-item" href="/SISPLAT-G/ped_main_pedido"><i
 						class="icon fa fa-circle-o"></i>Nuevo pedido</a></li>
-				<li><a class="treeview-item" href="/SISPLAT-G/main_compras"><i
-						class="icon fa fa-circle-o"></i>Compras</a></li>
+				<li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview">
+				<i class="icon fa fa-circle-o"></i><span class="app-menu__label">
+						Compras</span></a>
+					<ul>
+					<li><a class="treeview-item" href="/SISPLAT-G/main_compras"><i
+						class="icon fa fa-circle-o"></i>Lista Compras</a></li>
+					<li><a class="treeview-item" href="/SISPLAT-G/main_registrarcompra"><i
+						class="icon fa fa-circle-o"></i>Registrar Compra</a></li>
+					</ul>
+						</li>
 			</ul></li>
 		<li class="treeview"><a class="app-menu__item" href="#"
 			data-toggle="treeview"><i class="app-menu__icon fa fa-registered"></i><span

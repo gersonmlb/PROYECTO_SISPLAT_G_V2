@@ -34,6 +34,10 @@ public class HomeController {
 	public String compras() {
 		return "com_main_compras";
 	}
+	@GetMapping("/main_registrarcompra")
+	public String registrarcompras() {
+		return "com_main_registrarcompra";
+	}
 	
 	@GetMapping("/principal")
 	public String principal() {
