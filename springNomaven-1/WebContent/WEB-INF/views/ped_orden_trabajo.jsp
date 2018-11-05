@@ -26,30 +26,88 @@
 	<!-- Navbar-->
 	<jsp:include page="template/header.jsp"></jsp:include>
 	<main class="app-content">
-<div class="app-title">
+	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-user fa-lg"></i> Crear Empleado
+				<i class="fa fa-user fa-lg"></i> ORDEN DE TRABAJO
 			</h1>
-			<p>Start a beautiful journey here</p>
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
 			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
 			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
 		</ul>
 	</div>
-	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary" data-toggle="modal"
-		data-target="#myModal">Open modal</button>
+	<center>
+		<div class="col-sm-12">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="form-group row">
+					<label class="col-lg-6 col-form-label form-control-label">ESCRIBA
+						EL CODIGO</label> <br>
+					<div class="col-lg-4">
+						<input class="form-control"  type="text" placeholder="">
+					</div>
+					<div class="col-lg-2">
+						<button class="btn btn-primary">Buscar</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4"></div>
+		</div>
+	</center>
 
 
-	<div class="table-responsive"
-		style="background-color: white; margin-top: 5%;">
+
+	<div>
+		<div class="col-sm-3"
+			style="background-color: green; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-4 col-form-label form-control-label">CLIENTE</label>
+				<br>
+				<div class="col-lg-8">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3"
+			style="background-color: blue; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">COD.PEDIDO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3"
+			style="background-color: yellow; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">FEC.EMITIDA
+				</label> <br>
+
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3"
+			style="background-color: purple; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">PRODUCTO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="table-responsive">
 		<table class="table table-hover">
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>First Name</th>
+					<th>Codigo </th>
 					<th>Last Name</th>
 					<th>Dni</th>
 					<th>Type</th>
@@ -69,106 +127,23 @@
 					<td>john@example.com</td>
 					<td>john@example.com</td>
 				</tr>
-				<tr>
-					<td>Mary</td>
-					<td>Moe</td>
-					<td>mary@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
-				<tr>
-					<td>July</td>
-					<td>Dooley</td>
-					<td>july@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-				</tr>
 			</tbody>
 		</table>
 	</div>
-	<!-- The Modal -->
-	<div class="modal" id="myModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3>Informacion Empleado</h3>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
+	<br>
+	<center>
+		<div class="col-sm-12">
+			<div class="form-group row">
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Anterior</button>
 				</div>
-				<!-- Modal body -->
-				<div class="modal-body">
-					<!-- form user info -->
-					<div class="card-body">
-						<form class="form" role="form" autocomplete="off">
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">First
-									name</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="text" placeholder="Jose Armando">
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">Last
-									name</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="text" placeholder="Guzman Gonzales" >
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">DNI</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="text" placeholder="74289801">
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">Type</label>
-								<div class="col-lg-9">
-									<select id="user_time_zone" class="form-control" size="0">
-										<option value="Hawaii">Administrador</option>
-										<option value="Central Time (US &amp; Canada)"
-											selected="selected">Vendedor</option>
-										<option value="Indiana (East)">Jefe de fabricación</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">Username</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="text" placeholder="JoseGuzman123">
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">Password</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="password" placeholder="123456">
-								</div>
-							</div>
-							<div class="form-group row">
-								<label class="col-lg-3 col-form-label form-control-label">Confirm</label>
-								<div class="col-lg-9">
-									<input class="form-control" type="password" placeholder="123456">
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer">
-					<input type="reset" class="btn btn-secondary" data-dismiss="modal"
-						value="Cancel"> <input id="GuardarEmpleado" type="button"
-						class="btn btn-primary" value="Save Changes">
+
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Realizar</button>
 				</div>
 			</div>
 		</div>
-	</div>
-
-
-
+	</center>
 
 
 	</main>

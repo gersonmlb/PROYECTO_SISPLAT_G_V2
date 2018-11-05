@@ -34,7 +34,7 @@
 		</ul>
 	</div>
 	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary" > Add Hoja Contrato <a href="SISPLAT-G/ped_hoja_contrato"></a>  </button>
+	<button type="button" class="btn btn-primary" > Add Hoja Contrato <a href="/SISPLAT-G/ped_hoja_contrato"></a>  </button>
 
 
 	<div class="table-responsive"
