@@ -98,7 +98,11 @@
 		</div>
 	</div>
 	<div class="table-responsive"
+<<<<<<< HEAD
 		style="background-color: white; margin-top: 5%;">
+=======
+		style="background-color: white;">
+>>>>>>> bd4992a2ceb19619e915c03905dc7fae03aef47c
 		<table class="table table-hover">
 			<thead>
 				<tr>
