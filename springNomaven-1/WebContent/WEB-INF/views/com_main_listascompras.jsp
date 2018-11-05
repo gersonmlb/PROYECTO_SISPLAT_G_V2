@@ -25,7 +25,7 @@
 		</div>
 		<ul class="app-breadcrumb breadcrumb">
 			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-			<li class="breadcrumb-item"><a href="#">HOME</a></li>
+			<li class="breadcrumb-item"><a href="#">Home</a></li>
 		</ul>
 	</div>
 	<div class="row">
@@ -53,7 +53,7 @@
 					<th>#</th>
 					<th>Nombre</th>
 					<th>Descripción</th>
-					<th colspan="2">Accion</th>
+					<th colspan="2" style="width: 100px;">Accion</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -61,7 +61,7 @@
 					<td>1</td>
 					<td>Collar de plata </td>
 					<td>Collar hecho a base de plata y con materiales sacados de un volcan inactivo donde vivio un gran dragon</td>
-					<td><a href="#" class="fa fa-check-circle" style="font-size:24px;color:grey;"></a><pre></pre><input type="number" id="income" name="income" value="1" style="width: 50px;" ></td>
+					<td><div class="row"><div class="col-xl-3 col-lg-6 col-lg-12"><a href="#" class="fa fa-check-circle" style="font-size:30px;color:grey;"></a></div><div class="col-xl-3 col-lg-6 col-lg-12"><input type="number" id="income" name="income" value="1" style="width: 50px;" ><div></div></div></td>
 				</tr>
 			</tbody>
 		</table>
@@ -73,7 +73,7 @@
 	<div class="row col-md-8">
 	</div>
 			<div class="col-md-4">
-				<button type="button" class="btn btn-lg btn-primary" >Siguiente</button>
+				<span class="btn btn-lg btn-primary" ><a style="color: white;" href="/SISPLAT-G/Aceptar-Orden-de-Compra">Siguiente </a></span>
 				<span class="btn btn-secondary btn-lg"><a style="color: white;" href="/SISPLAT-G/Compras">Salir </a></span>
 			</div>
 		</div> 
