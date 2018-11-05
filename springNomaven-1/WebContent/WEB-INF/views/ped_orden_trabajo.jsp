@@ -33,33 +33,59 @@
 			</h1>
 		</div>
 	</div>
+	<center>
+		<div class="col-sm-12">
+
+			<div>
+			
+			</div>
+
+		</div>
+	</center>
+
+
 
 	<div>
 		<div class="col-sm-3"
-			style="background-color: green; float: left; height: 80px;">
+			style="background-color: green; float: left; height: 100%;">
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label form-control-label">First
-					name</label>
-					<br>
-				<div class="col-lg-9">
-					<input class="form-control" type="text" placeholder="Jose Armando">
+				<label class="col-lg-4 col-form-label form-control-label">CLIENTE</label>
+				<br>
+				<div class="col-lg-8">
+					<input class="form-control" type="text" placeholder="">
 				</div>
 			</div>
 		</div>
 		<div class="col-sm-3"
-			style="background-color: blue; float: left; height: 80px;">
-			<label style="margin-top: 10px;">CODIGO PEDIDO</label> <input
-				style="">
+			style="background-color: blue; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">COD.PEDIDO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" placeholder="">
+				</div>
+			</div>
 		</div>
 		<div class="col-sm-3"
-			style="background-color: yellow; float: left; height: 80px;">
-			<label style="margin-top: 10px;">FECHA EMITIDA</label> <input
-				style="">
+			style="background-color: yellow; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">FEC.EMITIDA
+				</label> <br>
+
+				<div class="col-lg-7">
+					<input class="form-control" type="text" placeholder="">
+				</div>
+			</div>
 		</div>
 		<div class="col-sm-3"
-			style="background-color: purple; float: left; height: 80px;">
-			<label style="margin-top: 10px;">PRODUCTO</label> <br> <input
-				style="">
+			style="background-color: purple; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">PRODUCTO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" placeholder="">
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="table-responsive"
@@ -91,7 +117,20 @@
 			</tbody>
 		</table>
 	</div>
+	<br>
+	<center>
+		<div class="col-sm-12">
+			<div class="form-group row">
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Anterior</button>
+				</div>
 
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Realizar</button>
+				</div>
+			</div>
+		</div>
+	</center>
 	</main>
 	<!-- Essential javascripts for application to work-->
 	<script src="${urlrecursos}/js/jquery-3.2.1.min.js"></script>
