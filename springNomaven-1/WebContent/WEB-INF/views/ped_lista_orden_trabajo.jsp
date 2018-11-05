@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary">Add Order Work <a href="SISPLAT-G/ped_orden_trabajo"></a> </button>
+	<button type="button" class="btn btn-primary">Add Order Work <span> <a href="/SISPLAT-G/ped_orden_trabajo"></a> </span> </button>
 
 
 	<div class="table-responsive"

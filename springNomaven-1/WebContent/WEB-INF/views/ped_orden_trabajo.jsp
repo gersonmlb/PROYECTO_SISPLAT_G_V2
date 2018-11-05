@@ -35,11 +35,20 @@
 	</div>
 	<center>
 		<div class="col-sm-12">
-
-			<div>
-			
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="form-group row">
+					<label class="col-lg-6 col-form-label form-control-label">ESCRIBA EL CODIGO</label> <br>
+					<div class="col-lg-4">
+						<input class="form-control" type="text" placeholder="">
+					</div>
+					<div class="col-lg-2">
+						<button>Buscar</button>
+					</div>
+				</div>
 			</div>
 
+			<div class="col-sm-4"></div>
 		</div>
 	</center>
 
@@ -89,7 +98,7 @@
 		</div>
 	</div>
 	<div class="table-responsive"
-		style="background-color: white; margin-top: 20%;">
+		style="background-color: white; margin-top: 5%;">
 		<table class="table table-hover">
 			<thead>
 				<tr>
