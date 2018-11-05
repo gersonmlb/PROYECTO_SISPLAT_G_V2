@@ -106,7 +106,7 @@
 									<div class="media">
 										<div class="media-body text-xs-left">
 											<h3 class="teal">10</h3>
-											<span><a style="color: black" href="/SISPLAT-G/ped_orden_trabajo"> Orden Trabajo </a></span>
+											<span><a style="color: black" href="/SISPLAT-G/ped_lista_orden_trabajo"> Orden Trabajo </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i class="icon-user1 teal font-large-2 float-xs-right"></i>

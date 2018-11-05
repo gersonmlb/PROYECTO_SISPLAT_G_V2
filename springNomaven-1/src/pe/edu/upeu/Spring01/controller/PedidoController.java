@@ -18,14 +18,17 @@ public class PedidoController {
 		return "ped_nuevo_pedido";
 	}
 	@GetMapping("/ped_lista_hoja_contrato")
-	public String listahoja_contrato() {
+	public String lista_hoja_contrato() {
 		return "ped_lista_hoja_contrato";
 	}
 	@GetMapping("/ped_hoja_contrato")
 	public String hoja_contrato() {
 		return "ped_hoja_contrato";
 	}
-	
+	@GetMapping("/ped_lista_orden_trabajo")
+	public String lista_orden_trabajo() {
+		return "ped_lista_orden_trabajo";
+	}
 	@GetMapping("/ped_orden_trabajo")
 	public String orden_trabajo() {
 		return "ped_orden_trabajo";
@@ -35,5 +38,6 @@ public class PedidoController {
 	public String comprobante_pedido() {
 		return "ped_comprobante_pedido";
 	}
+
 	
 }
