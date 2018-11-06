@@ -30,7 +30,8 @@
 
 	</div>
 	<!-- Button to Open the Modal -->
-	<button type="button" class="btn btn-primary"> <a href="SISTPLAT-G/ped_nuevo_pedido">  </a> Add Order  </button>
+	<button type="button" class="btn btn-primary">Add Orden <a href="ped_nuevo_pedido">  </a>   </button>
+	
 
 
 	<div class="table-responsive"

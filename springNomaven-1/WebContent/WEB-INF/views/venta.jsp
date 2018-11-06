@@ -75,7 +75,7 @@
 		<div class="col-sm-4"
 			style="background-color: yellow; float: left; height: 100%;">
 			<div class="form-group row" style="margin-top: 2%;">
-				<div class="col-lg-12" style=" background-color: white;">
+				<div class="col-lg-12" style="background-color: white;">
 					<label>Nombre del producto</label> <input type="text"
 						class="form-control" placeholder="Collar de oro">
 				</div>
@@ -97,9 +97,7 @@
 			</div>
 		</div>
 		<div class="col-sm-4"
-			style="background-color: white; float: left; border-radius:16px;
--moz-border-radius:16px;
--webkit-border-radius:16px;">
+			style="background-color: white; float: left; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px;">
 			<div class="form-group row" style="margin-top: 2%;">
 				<div class="col-lg-6">
 					<label>Serie</label> <input type="text" class="form-control"
@@ -182,7 +180,7 @@
 
 				</div>
 			</div>
-			<div class="form-group row"> 
+			<div class="form-group row">
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
 					<label>TOTAL A PAGAR</label> <input type="text"
@@ -192,7 +190,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 
 
 

@@ -19,8 +19,9 @@ import pe.edu.upeu.Spring01.pojo.Usuario;
 public class PedidoController {
 	@GetMapping("/ped_main_pedido")
 	public String mainpedido() {
-		return "ped_main_pedido";
+		return "ped_principal_pedido";
 	}
+	
 	@GetMapping("/ped_lista_nuevo_pedido")
 	public String listanuevo_pedido() {
 		return "ped_lista_nuevo_pedido";
@@ -51,7 +52,7 @@ public class PedidoController {
 		return "ped_comprobante_pedido";
 	}
 	
-	
+	/*
 	private Gson g = new Gson();
 	@RequestMapping(value = "/hc")
 	public void listarusuarios(HttpServletRequest request, HttpServletResponse response)
@@ -66,13 +67,6 @@ public class PedidoController {
 			break;
 		
 		}
-
-	
-	
-	
-	
-	
-	
+*/
 	}
 	
-}

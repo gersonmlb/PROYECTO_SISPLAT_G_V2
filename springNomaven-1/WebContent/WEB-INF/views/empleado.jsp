@@ -127,7 +127,7 @@
 										<option value="Hawaii">Administrador</option>
 										<option value="Central Time (US &amp; Canada)"
 											selected="selected">Vendedor</option>
-										<option value="Indiana (East)">Jefe de fabricación</option>
+										<option value="Indiana (East)">Jefe de fabricaciï¿½n</option>
 									</select>
 								</div>
 							</div>
