@@ -82,7 +82,6 @@ public class UsuarioDaoImp implements UsuarioDao {
 
 	@Override
 	public Usuario read(int id) {
-		// TODO Auto-generated method stub
 		Connection cx = null;
 		Usuario u = new Usuario();
 		try {
