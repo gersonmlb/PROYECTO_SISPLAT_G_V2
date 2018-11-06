@@ -24,8 +24,6 @@ public class HojaContratoDaoImp implements HojaContratoDao {
 		try {
 			cx = dataSource.getConnection();
 			PreparedStatement ps = cx.prepareCall("{call asa(?,?,?)}");
-			// prepareStatement("insert into usuario(idusuario, nom_user,clave,estado)
-			// values(null,?,?,1)");
 			ps.setInt(1, hojacontrato.getIdempleado());
 			ps.setInt(2, hojacontrato.getIdpedido());
 			ps.setDouble(3, hojacontrato.getTotal());
@@ -60,14 +58,13 @@ public class HojaContratoDaoImp implements HojaContratoDao {
 		HojaContrato hojacontrato = new HojaContrato();
 		try {
 			cx = dataSource.getConnection();
-			PreparedStatement ps = cx.prepareCall("{call asa(?,?,?)}");
+			PreparedStatement ps = cx.prepareCall("{call asa(?,	?,?)}");
 			ps.setInt(1, id);
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) {
 				hojacontrato.setIdempleado(rs.getInt(""));
 				hojacontrato.setCodigo(rs.getString(""));
 				hojacontrato.setFecha(rs.getString(""));
-				
 			}
 
 		} catch (Exception e) {
