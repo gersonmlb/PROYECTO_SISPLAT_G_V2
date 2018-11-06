@@ -90,9 +90,10 @@
 		<div class="row col-md-12">
 			<div class="row col-md-8"></div>
 			<div class="col-md-4">
-				<button type="button" class="btn btn-lg btn-primary">Siguiente</button>
+				<span class="btn btn-lg btn-primary"><i class="fa fa-search"
+								aria-hidden="true" onclick="prueba()"></i>Siguiente</span>
 				<span class="btn btn-secondary btn-lg"><a
-					style="color: white;" href="/SISPLAT-G/Compras">Salir </a></span>
+					style="color: white;" href="/SISPLAT-G/Compras" >Salir </a></span>
 			</div>
 		</div>
 	</div>
