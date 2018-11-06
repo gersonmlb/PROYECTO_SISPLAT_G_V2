@@ -39,7 +39,7 @@
 	<div>
 		<div class="col-sm-4"
 			style="background-color: green; float: left; height: 100%;">
-			<div class="form-group row">
+			<div class="form-group row" style="margin-top: 2%;">
 				<div class="col-lg-12">
 					<div class="input-group" style="width: 100%;">
 						<input type="text" class="form-control"
@@ -74,8 +74,8 @@
 		</div>
 		<div class="col-sm-4"
 			style="background-color: yellow; float: left; height: 100%;">
-			<div class="form-group row">
-				<div class="col-lg-12">
+			<div class="form-group row" style="margin-top: 2%;">
+				<div class="col-lg-12" style=" background-color: white;">
 					<label>Nombre del producto</label> <input type="text"
 						class="form-control" placeholder="Collar de oro">
 				</div>
@@ -89,23 +89,32 @@
 					<label>Stock</label> <input type="text" class="form-control"
 						placeholder="5">
 				</div>
-				<div class="col-lg-12"><input id="GuardarEmpleado" type="button"
-						class="btn btn-primary" value="Agregar al carrito">
+				<div class="col-lg-12">
+					<input id="GuardarEmpleado" type="button" class="btn btn-primary"
+						value="Agregar al carrito">
 				</div>
 
 			</div>
 		</div>
 		<div class="col-sm-4"
-			style="background-color: white; float: left; height: 100%;">
-			<div class="form-group row" style="margin-top: 10%;">
+			style="background-color: white; float: left; border-radius:16px;
+-moz-border-radius:16px;
+-webkit-border-radius:16px;">
+			<div class="form-group row" style="margin-top: 2%;">
 				<div class="col-lg-6">
 					<label>Serie</label> <input type="text" class="form-control"
 						placeholder="5">
 
 				</div>
 				<div class="col-lg-6">
-					<label>N° comprobante</label> <input type="text" class="form-control"
-						placeholder="5">
+					<label>N° comprobante</label> <input type="text"
+						class="form-control" placeholder="5">
+
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-12"
+					style="margin-top: 2%; width:; height: 10%; background-color: black;">
 
 				</div>
 			</div>
@@ -121,8 +130,8 @@
 
 				</div>
 				<div class="col-lg-6">
-					<label for="sel1">Tipo documento:</label> <select class="form-control"
-						id="sel1">
+					<label for="sel1">Tipo documento:</label> <select
+						class="form-control" id="sel1">
 						<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -132,6 +141,48 @@
 				</div>
 			</div>
 			<div class="form-group row">
+				<div class="col-lg-12"
+					style="margin-top: 2%; height: 10%; background-color: black;">
+
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-2">
+					<label>RUC</label>
+				</div>
+				<div class="col-lg-4">
+					<input type="text" class="form-control" placeholder="123456789">
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-2">
+					<label>Direccion</label>
+				</div>
+				<div class="col-lg-4">
+					<input type="text" class="form-control" placeholder="123456789">
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-2">
+					<label>IGV</label>
+				</div>
+				<div class="col-lg-4">
+					<input type="text" class="form-control" placeholder="123456789">
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<div class="form-group row">
+				<div class="col-lg-12"
+					style="margin-top: 2%; height: 10%; background-color: black;">
+
+				</div>
+			</div>
+			<div class="form-group row"> 
 				<div class="col-lg-3"></div>
 				<div class="col-lg-6">
 					<label>TOTAL A PAGAR</label> <input type="text"
@@ -141,47 +192,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="table-responsive"
-		style="background-color: white; margin-top: 25%;">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th>#</th>
-					<th>First Name</th>
-					<th>Last Name</th>
-					<th>Dni</th>
-					<th>Type</th>
-					<th>User Name</th>
-					<th>Password</th>
-					<th colspan="2">Action</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>John</td>
-					<td>Doe</td>
-					<td>john@example.com</td>
-					<td>john@example.com</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<nav aria-label="...">
-		<ul class="pagination">
-			<li class="page-item disabled"><a class="page-link" href="#"
-				tabindex="-1">Previous</a></li>
-			<li class="page-item"><a class="page-link" href="#">1</a></li>
-			<li class="page-item active"><a class="page-link" href="#">2
-					<span class="sr-only">(current)</span>
-			</a></li>
-			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#">Next</a></li>
-		</ul>
-	</nav>
+	
 
 
 
