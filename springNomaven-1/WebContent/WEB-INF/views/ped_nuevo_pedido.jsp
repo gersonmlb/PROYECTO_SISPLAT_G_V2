@@ -24,14 +24,21 @@
 	<div class="app-title">
 		<div>
 			<h1>
-				<i class="fa fa-user fa-lg"></i> Orden Trabajo
+				<i class="fa fa-user fa-lg"></i> Crear Empleado
 			</h1>
+			<p>Start a beautiful journey here</p>
 		</div>
+		<ul class="app-breadcrumb breadcrumb">
+			<li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
+		</ul>
 	</div>
-	
-	
-	<button type="button" class="btn btn-primary">Add Orden Trabajo <a href="ped_orden_trabajo">  </a>   </button>
-<div class="table-responsive"
+	<!-- Button to Open the Modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal"
+		data-target="#myModal">Open modal</button>
+
+
+	<div class="table-responsive"
 		style="background-color: white; margin-top: 5%;">
 		<table class="table table-hover">
 			<thead>
@@ -154,6 +161,7 @@
 			</div>
 		</div>
 	</div>
+
 	</main>
 	<!-- Essential javascripts for application to work-->
 	<script src="${urlrecursos}/js/jquery-3.2.1.min.js"></script>

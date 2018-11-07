@@ -111,6 +111,14 @@
 		<li><a class="app-menu__item" href="/SISPLAT-G/principal"><i
 				class="app-menu__icon fa fa-dashboard"></i><span
 				class="app-menu__label">Home</span></a></li>
+	    <li><a class="app-menu__item" href="/SISPLAT-G/venta"><i
+				class="app-menu__icon fa fa-dashboard"></i><span
+				class="app-menu__label">Ventas</span></a></li>		
+		<li><a class="app-menu__item" href="/SISPLAT-G/ped_main_pedido"><i
+				class="app-menu__icon fa fa-dashboard"></i><span
+				class="app-menu__label">Nuevo Pedido</span></a></li>		
+				
+				
 		<li class="treeview"><a class="app-menu__item" href="#"
 			data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span
 				class="app-menu__label">Operaciones</span><i
@@ -118,8 +126,6 @@
 			<ul class="treeview-menu">
 				<li><a class="treeview-item" href="/SISPLAT-G/venta"><i
 						class="icon fa fa-circle-o"></i>Ventas</a></li>
-				<li><a class="treeview-item" href="/SISPLAT-G/ped_main_pedido"><i
-						class="icon fa fa-circle-o"></i>Nuevo pedido</a></li>
 				<li><a class="treeview-item" href="/SISPLAT-G/Compras"><i
 						class="icon fa fa-circle-o"></i>Compras</a></li>
 			</ul></li>
@@ -151,7 +157,8 @@
 			<ul class="treeview-menu">
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i>Productos</a></li>
-				<li><a class="treeview-item" href="/SISPLAT-G/Registrar_Producto"><i
+				<li><a class="treeview-item"
+					href="/SISPLAT-G/Registrar_Producto"><i
 						class="icon fa fa-circle-o"></i>Sedes</a></li>
 				<li><a class="treeview-item" href="#"><i
 						class="icon fa fa-circle-o"></i> Materia prima</a></li>
