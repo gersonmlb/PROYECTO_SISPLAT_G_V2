@@ -23,6 +23,124 @@
 	<main class="app-content">
 
 
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<label>Codigo Hoja Contrato</label>
+		
+		<div class="input-group">
+			<input type="text" class="form-control"
+				placeholder="Escriba el codigo de la hoja de contrato"
+				aria-label="Username" disabled="disabled"
+				aria-describedby="basic-addon1">
+			<div class="input-group-prepend">
+				<button class="btn btn-primary" id="basic-addon1">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-3">
+				<label>N° de venta</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label>Serie</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label for="exampleFormControlSelect1">Tipo de pago</label> <select
+					class="form-control" id="exampleFormControlSelect1">
+					<option>Seleccione</option>
+					<option>Contado</option>
+					<option>Tarjeta</option>
+				</select>
+			</div>
+			<div class="col-lg-3">
+				<label for="exampleFormControlSelect1">Tipo de documento</label> <select
+					class="form-control" id="exampleFormControlSelect1">
+					<option>Seleccione</option>
+					<option>Boleta</option>
+					<option>Factura</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-4">
+				<label>Cliente:</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-4">
+				<label>Codigo:</label> <input class="form-control" type="text"
+					placeholder="123" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-4">
+				<label>Fecha Emitida:</label> <input class="form-control"
+					type="text" placeholder="2018-10-17" disabled="disabled" style="">
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="table-responsive" style="background-color: white;">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre Producto</th>
+					<th>Cantidad</th>
+					<th>Precio Unitario</th>			
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Joya de Oro</td>
+					<td>1</td>
+					<td>100</td>	
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<div class="form-group row" style="margin-top: 2%;">
+			
+			<div class="col-lg-2">
+				<label>S/. Importe Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<label>S/. Adelanto</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<label>S/. A cuenta</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<label>50% Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+	</div>
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-4">
+				<button type="button" class="btn btn-success">Generar Comprobante Pedido</button>
+				<button type="button" class="btn btn-info">Cancelar</button>
+			</div>
+			<div class="col-lg-8"></div>
+
+		</div>
+	</div>
+
+
 
 
 

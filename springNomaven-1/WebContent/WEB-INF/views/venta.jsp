@@ -36,6 +36,32 @@
 		</div>
 	</div>
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-3">
+				<label>N° de venta</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label>Serie</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+					<label for="exampleFormControlSelect1">Tipo de pago</label> <select
+						class="form-control" id="exampleFormControlSelect1">
+						<option>Seleccione</option>
+						<option>Contado</option>
+						<option>Tarjeta</option>
+					</select>
+			</div>
+			<div class="col-lg-3">
+				<label for="exampleFormControlSelect1">Tipo de documento</label> <select
+						class="form-control" id="exampleFormControlSelect1">
+						<option>Seleccione</option>
+						<option>Boleta</option>
+						<option>Factura</option>
+					</select>
+			</div>
+		</div>
 		<label>Cliente</label>
 		<div class="input-group">
 
@@ -43,8 +69,8 @@
 				placeholder="Buscar cliente DNI o RUC" aria-label="Username"
 				aria-describedby="basic-addon1">
 			<div class="input-group-prepend">
-				<span class="input-group-text" id="basic-addon1" onclick="prueba()"><i
-					class="fa fa-search"></i></span>
+			<button class="btn btn-primary"  id="basic-addon1"  onclick="prueba()"><i
+					class="fa fa-search"></i></button>
 			</div>
 		</div>
 		<div class="form-group row" style="margin-top: 2%; width: 30%;">
@@ -60,7 +86,7 @@
 				placeholder="Buscar por código" aria-label="Username"
 				aria-describedby="basic-addon1">
 			<div class="input-group-prepend">
-				<span class="input-group-text" id="basic-addon1"><i
+				<span style="background-color: #04B45F; outline: none;" class="input-group-text" id="basic-addon1"><i
 					class="fa fa-search"></i></span>
 			</div>
 		</div>

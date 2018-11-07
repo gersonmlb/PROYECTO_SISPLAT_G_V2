@@ -83,10 +83,9 @@
 								<div class="card-block">
 									<div class="media">
 										<div class="media-body text-xs-left">
-											<h3 class="pink"></h3>
+											<h3 class="pink">10</h3>
 											<span><a style="color: black"
-												href="/SISPLAT-G/ped_lista_nuevo_pedido">Realizar Nuevo
-													Pedido </a></span>
+												href="/SISPLAT-G/ped_lista_nuevo_pedido"> Pedidos </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i class="icon-bag2 pink font-large-2 float-xs-right"></i>
@@ -104,7 +103,7 @@
 										<div class="media-body text-xs-left">
 											<h3 class="teal">15</h3>
 											<span><a style="color: black"
-												href="/SISPLAT-G/ped_lista_hoja_contrato"> Hoja Contrato
+												href="/SISPLAT-G/ped_lista_hoja_contrato"> Hojas Contrato
 											</a></span>
 										</div>
 										<div class="media-right media-middle">
@@ -123,7 +122,7 @@
 										<div class="media-body text-xs-left">
 											<h3 class="deep-orange">29</h3>
 											<span><a style="color: black"
-												href="/SISPLAT-G/ped_lista_orden_trabajo"> Orden Trabajo
+												href="/SISPLAT-G/ped_lista_orden_trabajo"> Ordenes Work
 											</a></span>
 										</div>
 										<div class="media-right media-middle">
@@ -143,7 +142,7 @@
 										<div class="media-body text-xs-left">
 											<h3 class="cyan">18</h3>
 											<span><a style="color: black"
-												href="/SISPLAT-G/ped_comprobante_pedido">Venta Pedido </a></span>
+												href="/SISPLAT-G/ped_comprobante_pedido"> Venta Pedido </a></span>
 										</div>
 										<div class="media-right media-middle">
 											<i
