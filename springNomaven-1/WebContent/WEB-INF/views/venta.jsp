@@ -35,164 +35,133 @@
 			</h1>
 		</div>
 	</div>
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<label>Cliente</label>
+		<div class="input-group">
 
-	<div>
-		<div class="col-sm-4"
-			style="background-color: green; float: left; height: 100%;">
-			<div class="form-group row" style="margin-top: 2%;">
-				<div class="col-lg-12">
-					<div class="input-group" style="width: 100%;">
-						<input type="text" class="form-control"
-							placeholder="DNI o RUC del cliente">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fa fa-search"
-								aria-hidden="true"></i></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-12">
-					<label>Nombre del cliente</label> <input type="text"
-						class="form-control" placeholder="Yaritza Casildo Chanducas">
-				</div>
-			</div>
-			<br>
-			<div class="form-group row">
-				<div class="col-lg-12">
-					<div class="input-group" style="width: 100%;">
-						<input type="text" class="form-control"
-							placeholder="Código del producto">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fa fa-search"
-								aria-hidden="true" onclick="prueba()"></i></span>
-						</div>
-					</div>
-
-				</div>
+			<input type="text" class="form-control"
+				placeholder="Buscar cliente DNI o RUC" aria-label="Username"
+				aria-describedby="basic-addon1">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1" onclick="prueba()"><i
+					class="fa fa-search"></i></span>
 			</div>
 		</div>
-		<div class="col-sm-4"
-			style="background-color: yellow; float: left; height: 100%;">
-			<div class="form-group row" style="margin-top: 2%;">
-				<div class="col-lg-12" style="background-color: white;">
-					<label>Nombre del producto</label> <input type="text"
-						class="form-control" placeholder="Collar de oro">
-				</div>
-				<br>
-				<div class="col-lg-12">
-					<label>Precio x Unidad</label> <input type="text"
-						class="form-control" placeholder="S/. 1000">
-				</div>
-				<br>
-				<div class="col-lg-12">
-					<label>Stock</label> <input type="text" class="form-control"
-						placeholder="5">
-				</div>
-				<div class="col-lg-12">
-					<input id="GuardarEmpleado" type="button" class="btn btn-primary"
-						value="Agregar al carrito">
-				</div>
+		<div class="form-group row" style="margin-top: 2%; width: 30%;">
+			<div class="col-lg-12">
+				<input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+
+		</div>
+		<label>Producto</label>
+		<div class="input-group">
+			<input type="text" class="form-control"
+				placeholder="Buscar por código" aria-label="Username"
+				aria-describedby="basic-addon1">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1"><i
+					class="fa fa-search"></i></span>
+			</div>
+		</div>
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-3">
+				<label>Nombre</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label>Precio</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label>Stock</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-3">
+				<label>Codigo</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 
 			</div>
 		</div>
-		<div class="col-sm-4"
-			style="background-color: white; float: left; border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px;">
-			<div class="form-group row" style="margin-top: 2%;">
-				<div class="col-lg-6">
-					<label>Serie</label> <input type="text" class="form-control"
-						placeholder="5">
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-3">
+				<button class="btn btn-primary">Agregar al carrito</button>
+			</div>
 
-				</div>
-				<div class="col-lg-6">
-					<label>N° comprobante</label> <input type="text"
-						class="form-control" placeholder="5">
-
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-12"
-					style="margin-top: 2%; width:; height: 10%; background-color: black;">
-
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-6">
-					<label for="sel1">Tipo pago:</label> <select class="form-control"
-						id="sel1">
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-					</select>
-
-				</div>
-				<div class="col-lg-6">
-					<label for="sel1">Tipo documento:</label> <select
-						class="form-control" id="sel1">
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-					</select>
-
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-12"
-					style="margin-top: 2%; height: 10%; background-color: black;">
-
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-2">
-					<label>RUC</label>
-				</div>
-				<div class="col-lg-4">
-					<input type="text" class="form-control" placeholder="123456789">
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-2">
-					<label>Direccion</label>
-				</div>
-				<div class="col-lg-4">
-					<input type="text" class="form-control" placeholder="123456789">
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-2">
-					<label>IGV</label>
-				</div>
-				<div class="col-lg-4">
-					<input type="text" class="form-control" placeholder="123456789">
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-12"
-					style="margin-top: 2%; height: 10%; background-color: black;">
-
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-lg-3"></div>
-				<div class="col-lg-6">
-					<label>TOTAL A PAGAR</label> <input type="text"
-						class="form-control" placeholder="Collar de oro">
-				</div>
-				<div class="col-lg-3"></div>
-			</div>
 		</div>
+
 	</div>
 
 
 
+	<div class="table-responsive" style="background-color: white;">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>DNI</th>
+					<th>Cellphone</th>
+					<th>State</th>
+					<th colspan="2">Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>Mary</td>
+					<td>Moe</td>
+					<td>mary@example.com</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>July</td>
+					<td>Dooley</td>
+					<td>july@example.com</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-2">
+				<label>S/ Sub Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<label>S/ IGV %</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<label>S/ Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+	</div>
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
+		<div class="form-group row" style="margin-top: 2%;">
+			<div class="col-lg-4">
+				<button type="button" class="btn btn-success">Generar Venta</button>
+				<button type="button" class="btn btn-info">Cancelar</button>
+			</div>
+			<div class="col-lg-8"></div>
+
+		</div>
+	</div>
 
 	</main>
 	<!-- Essential	 javascripts for application to work-->
