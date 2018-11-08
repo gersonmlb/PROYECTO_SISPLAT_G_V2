@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class CompraController {
 	
-	
 	@GetMapping("/Crear-Orden-Compra")
 	public String crearordencompra() {
 		return "com_main_listascompras";
@@ -16,9 +15,14 @@ public class CompraController {
 	public String registrarordencompra() {
 		return "com_main_registrarcompra";
 	}
+
 	@GetMapping("/Aceptar-Orden-de-Compra")
 	public String registrarordencompra2() {
-		
+		return "com_main_listascompras2";
+	}
+
+	@GetMapping("/Aceptar-Orden-de-Compra")
+	public String regisastrarordencompra2() {
 		return "com_main_listascompras2";
 	}
 }
