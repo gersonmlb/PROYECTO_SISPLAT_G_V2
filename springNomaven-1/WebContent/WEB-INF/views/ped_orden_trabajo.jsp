@@ -86,49 +86,37 @@
 			</div>
 		</div>
 		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-4">
+			<div class="col-lg-5">
 				<label>Nombre</label> <input class="form-control" type="text"
 					placeholder="Guzman Gonzales" disabled="disabled" style="">
+				<button class="btn btn-primary">Agregar</button>
 			</div>
-			<div class="col-lg-4">
-				<label>Stock</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-4" style="margin-top: 2%;">
-			<label></label>
-				<button class="btn btn-primary">Agregar al carrito</button>
+			<div class="col-lg-7" style="margin-top: 2%;">
+				<div class="table-responsive" style="background-color: white;">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Nombre Producto</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Joya de Oro</td>
+								<td>X</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
-
-	</div>
-
-	<div class="form-group row" ></div>
-
-	<div class="table-responsive" style="background-color: white;">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th>#</th>
-					<th>Nombre Producto</th>
-					<th>Cantidad</th>
-					<th>Precio Unitario</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>Joya de Oro</td>
-					<td>1</td>
-					<td>100</td>
-				</tr>
-			</tbody>
-		</table>
 	</div>
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Generar
-					Comprobante Pedido</button>
+				<button type="button" class="btn btn-success">Realizar</button>
 				<button type="button" class="btn btn-info">Cancelar</button>
 			</div>
 			<div class="col-lg-8"></div>

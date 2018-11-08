@@ -29,15 +29,12 @@
 		</div>
 	</div>
 
-
-
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<label>Codigo Pedido</label>
-		
+
 		<div class="input-group">
 			<input type="text" class="form-control"
-				placeholder="Escriba el codigo del pedido"
-				aria-label="Username" disabled="disabled"
+				placeholder="Escriba el codigo del pedido" aria-label="Username"
 				aria-describedby="basic-addon1">
 			<div class="input-group-prepend">
 				<button class="btn btn-primary" id="basic-addon1">
@@ -46,33 +43,26 @@
 			</div>
 		</div>
 
-
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-3">
 				<label>Cliente</label> <input class="form-control" type="text"
 					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
-				<label>Codigo del Pedido</label> <input class="form-control" type="text"
-					placeholder="121212" disabled="disabled" style="">
+				<label>Codigo del Pedido</label> <input class="form-control"
+					type="text" placeholder="121212" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
-				<label >Tipo de pago</label> <select
-					class="form-control">
-					<option>Seleccione</option>
-					<option>Contado</option>
-					<option>Tarjeta</option>
-				</select>
+				<label>Tipo de pago</label> 
+				<input class="form-control"
+					type="text" placeholder="Contado" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
-				<label> Fecha Emitida </label> 
-				<input class="form-control" type="text"
-					placeholder="2018-10-17" disabled="disabled" style="">
+				<label> Fecha Emitida </label> <input class="form-control"
+					type="text" placeholder="2018-10-17" disabled="disabled" style="">
 			</div>
 		</div>
 	</div>
-
-
 
 	<div class="table-responsive" style="background-color: white;">
 		<table class="table table-hover">
@@ -81,7 +71,7 @@
 					<th>#</th>
 					<th>Nombre Producto</th>
 					<th>Cantidad</th>
-					<th>Precio Unitario</th>			
+					<th>Precio Unitario</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -89,7 +79,7 @@
 					<td>1</td>
 					<td>Joya de Oro</td>
 					<td>1</td>
-					<td>100</td>	
+					<td>100</td>
 				</tr>
 			</tbody>
 		</table>
@@ -97,15 +87,14 @@
 
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
-			
 			<div class="col-lg-2">
-				<label>S/. Importe Total</label> <input class="form-control" type="text"
-					placeholder="2000.00" disabled="disabled" style="">
+				<label>S/. Importe Total</label> <input class="form-control"
+					type="text" placeholder="2000.00" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
 				<label>S/. Adelanto</label> <input class="form-control" type="text"
-					placeholder="1200.00"  style="">
+					placeholder="1200.00" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
@@ -123,7 +112,7 @@
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Generar</button>
+				<button type="button" class="btn btn-success">Realizar</button>
 				<button type="button" class="btn btn-info">Cancelar</button>
 			</div>
 			<div class="col-lg-8"></div>
