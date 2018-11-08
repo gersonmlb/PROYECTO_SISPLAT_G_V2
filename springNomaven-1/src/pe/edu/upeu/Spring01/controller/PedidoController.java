@@ -19,7 +19,7 @@ import pe.edu.upeu.Spring01.pojo.Usuario;
 public class PedidoController {
 	@GetMapping("/ped_main_pedido")
 	public String mainpedido() {
-		return "ped_principal_pedido";
+		return "ped_main_pedido";
 	}
 	
 	@GetMapping("/ped_lista_nuevo_pedido")
