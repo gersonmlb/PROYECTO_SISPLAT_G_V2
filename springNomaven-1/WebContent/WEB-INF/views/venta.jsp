@@ -35,82 +35,57 @@
 			</h1>
 		</div>
 	</div>
-	<div class="col-sm-12" style="background-color: white;">
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-3">
-				<label>N° de venta</label> <input class="form-control" type="text"
-					placeholder="001" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label>Serie</label> <input class="form-control" type="text"
-					placeholder="001" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label for="exampleFormControlSelect1">Tipo de pago</label> <select
-					class="form-control" id="exampleFormControlSelect1">
-					<option>Seleccione</option>
-					<option value="Contado" id="Contado">Contado</option>
-					<option>Tarjeta</option>
-				</select>
-			</div>
-			<div class="col-lg-3">
-				<label for="exampleFormControlSelect1">Tipo de documento</label> <select
-					class="form-control" id="exampleFormControlSelect1">
-					<option>Seleccione</option>
-					<option>Boleta</option>
-					<option>Factura</option>
-				</select>
-			</div>
-		</div>
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<label>Cliente</label>
-		<div class="input-group mb-3">
-			<input type="text" class="form-control" placeholder="DNI o RUC"
-				aria-label="Recipient's username" aria-describedby="basic-addon2">
-			<div class="input-group-append">
-				<button class="btn btn-outline-secondary" type="button">
-					<i class="fa fa-search"></i>
-				</button>
+		<div class="input-group">
+
+			<input type="text" class="form-control"
+				placeholder="Buscar cliente DNI o RUC" aria-label="Username"
+				aria-describedby="basic-addon1">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1" onclick="prueba()"><i
+					class="fa fa-search"></i></span>
 			</div>
 		</div>
 		<div class="form-group row" style="margin-top: 2%; width: 30%;">
 			<div class="col-lg-12">
 				<input class="form-control" type="text"
-					placeholder="Yaritza Casildo" disabled="disabled" style="">
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 
 		</div>
 		<label>Producto</label>
-		<div class="input-group mb-3">
-			<input type="text" class="form-control" placeholder="Código"
-				aria-label="Recipient's username" aria-describedby="basic-addon2">
-			<div class="input-group-append">
-				<button class="btn btn-outline-secondary" type="button" onclick="prueba()">
-					<i class="fa fa-search"></i>
-				</button>
+		<div class="input-group">
+			<input type="text" class="form-control"
+				placeholder="Buscar por código" aria-label="Username"
+				aria-describedby="basic-addon1">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="basic-addon1"><i
+					class="fa fa-search"></i></span>
 			</div>
 		</div>
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-3">
 				<label>Nombre</label> <input class="form-control" type="text"
-					placeholder="Collar" disabled="disabled" style="">
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
 				<label>Precio</label> <input class="form-control" type="text"
-					placeholder="500" disabled="disabled" style="">
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
 				<label>Stock</label> <input class="form-control" type="text"
-					placeholder="5" disabled="disabled" style="">
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-3">
 				<label>Codigo</label> <input class="form-control" type="text"
-					placeholder="12" disabled="disabled" style="">
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 
 			</div>
 		</div>
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-3">
-				<button class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Agregar al carrito</button>
+				<button class="btn btn-primary">Agregar al carrito</button>
 			</div>
 
 		</div>
@@ -157,34 +132,22 @@
 		</table>
 	</div>
 
-	<div class="col-sm-12" style="background-color: white;">
+	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-2"></div>
 			<div class="col-lg-2">
-				<label>Sub total</label>
-				<div class="input-group-prepend">
-					<span class="input-group-text" style="border: 2px solid #F1948A; background-color: #FADBD8;">S/</span>
-					<input class="form-control" type="text" placeholder="00.00"
-						disabled="disabled" style="border: 2px solid #F1948A;">
-				</div>
+				<label>S/ Sub Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
-				<label>IGV %</label>
-				<div class="input-group-prepend">
-					<span class="input-group-text" style="border: 2px solid #F1948A; background-color: #FADBD8;">S/</span>
-					<input class="form-control" type="text" placeholder="00.00"
-						disabled="disabled" style="border: 2px solid #F1948A;">
-				</div>
+				<label>S/ IGV %</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
-				<label>Total</label>
-				<div class="input-group-prepend">
-					<span class="input-group-text" style="border: 2px solid #F1948A; background-color: #FADBD8;">S/</span>
-					<input class="form-control" type="text" placeholder="00.00"
-						disabled="disabled" style="border: 2px solid #F1948A;">
-				</div>
+				<label>S/ Total</label> <input class="form-control" type="text"
+					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-2"></div>
 		</div>
@@ -192,8 +155,8 @@
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-4">
-				<button type="button" class="btn btn-primary" id="prueba1">Generar Venta</button>
-				<button type="button" class="btn btn-secondary">Cancelar</button>
+				<button type="button" class="btn btn-success">Generar Venta</button>
+				<button type="button" class="btn btn-info">Cancelar</button>
 			</div>
 			<div class="col-lg-8"></div>
 
@@ -207,7 +170,6 @@
 	<script src="${urlrecursos}/js/bootstrap.min.js"></script>
 	<script src="${urlrecursos}/sweetalert/sweetalert2.min.js"></script>
 	<script src="${urlrecursos}/js/main.js"></script>
-	<script src="${urlrecursos}/javascript/venta.js"></script>
 	<!-- The javascript plugin to display page loading on top-->
 	<script src="${urlrecursos}/js/plugins/pace.min.js"></script>
 
@@ -230,6 +192,9 @@
 			ga('send', 'pageview');
 		}
 
+		function prueba() {
+			swal('Good job!', 'You clicked the button!', 'success')
+		}
 	</script>
 </body>
 </html>

@@ -1,13 +1,4 @@
-function prueba() {
-	swal({
-		  position: 'top-end',
-		  type: 'success',
-		  title: 'Your work has been saved',
-		  showConfirmButton: false,
-		  timer: 1500
-		})
+
+function prueba(){
+	alert('You clicked the button!');
 }
-$("#prueba1").click(function() {
-	var num = $("#Contado").val();
-	alert(num);
-})

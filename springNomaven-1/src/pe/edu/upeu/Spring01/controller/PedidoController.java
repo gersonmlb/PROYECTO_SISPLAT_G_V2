@@ -19,7 +19,7 @@ import pe.edu.upeu.Spring01.pojo.Usuario;
 public class PedidoController {
 	@GetMapping("/ped_main_pedido")
 	public String mainpedido() {
-		return "ped_main_pedido";
+		return "ped_principal_pedido";
 	}
 	
 	@GetMapping("/ped_lista_nuevo_pedido")
@@ -51,22 +51,5 @@ public class PedidoController {
 	public String comprobante_pedido() {
 		return "ped_comprobante_pedido";
 	}
-	
-	/*
-	private Gson g = new Gson();
-	@RequestMapping(value = "/hc")
-	public void listarusuarios(HttpServletRequest request, HttpServletResponse response)
-			throws IOException, SQLException {
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = response.getWriter();
-		int op = Integer.parseInt(request.getParameter("opc"));
-		switch (op) {
-		case 1:
-			
-			
-			break;
-		
-		}
-*/
 	}
 	

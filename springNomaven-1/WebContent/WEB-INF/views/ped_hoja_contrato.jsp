@@ -28,100 +28,152 @@
 			</h1>
 		</div>
 	</div>
+	<center>
+		<div class="col-sm-12">
+			<div class="col-sm 3"></div>
+			<div class="col-sm-6">
+				<div class="form-group row">
+					<label class="col-lg-4 col-form-label form-control-label">ESCRIBA
+						EL CODIGO</label> <br>
+					<div class="col-lg-6">	
+						<input class="form-control" type="text" placeholder="">
+					</div>
+					<div class="col-lg-2">
+						<button class="btn btn-primary">Buscar</button>
+					</div>
+				</div>
+			</div>
 
-	<div class="col-sm-12" style="background-color: white; width: 100%;">
-		<label>Codigo Pedido</label>
+			<div class="col-sm-3"></div>
+		</div>
+	</center>
 
-		<div class="input-group">
-			<input type="text" class="form-control"
-				placeholder="Escriba el codigo del pedido" aria-label="Username"
-				aria-describedby="basic-addon1">
-			<div class="input-group-prepend">
-				<button class="btn btn-primary" id="basic-addon1">
-					<i class="fa fa-search"></i>
-				</button>
+
+	<div>
+		<div class="col-sm-4"
+			style="background-color: green; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-4 col-form-label form-control-label">CLIENTE</label>
+				<br>
+				<div class="col-lg-8">
+					<input class="form-control" type="text" disabled="true"
+						placeholder="">
+				</div>
 			</div>
 		</div>
+		<div class="col-sm-4"
+			style="background-color: blue; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">COD.PEDIDO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true"
+						placeholder="">
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4"
+			style="background-color: yellow; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">FEC.EMITIDA
+				</label> <br>
 
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-3">
-				<label>Cliente</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label>Codigo del Pedido</label> <input class="form-control"
-					type="text" placeholder="121212" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label>Tipo de pago</label> 
-				<input class="form-control"
-					type="text" placeholder="Contado" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label> Fecha Emitida </label> <input class="form-control"
-					type="text" placeholder="2018-10-17" disabled="disabled" style="">
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true"
+						placeholder="">
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="table-responsive" style="background-color: white;">
-		<table class="table table-hover">
+
+	<div class="table-responsive"
+		style="background-color: white; margin-top: 5%;">
+		<table class="table table-striped">
 			<thead>
 				<tr>
 					<th>#</th>
-					<th>Nombre Producto</th>
+					<th>Nombre del pedido</th>
 					<th>Cantidad</th>
 					<th>Precio Unitario</th>
+					<th>Importe total</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>1</td>
-					<td>Joya de Oro</td>
-					<td>1</td>
-					<td>100</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-
-	<div class="col-sm-12" style="background-color: white; width: 100%;">
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-2">
-				<label>S/. Importe Total</label> <input class="form-control"
-					type="text" placeholder="2000.00" disabled="disabled" style="">
+	<br>
+	<div class="col-sm-12">
+		<div class="col-sm-3" style="float: left;">
+			<label class="col-lg-7 col-form-label form-control-label"
+				style="float: left;">IMPORTE TOTAL</label>
+			<div class="col-lg-5" style="float: left;">
+				<input class="form-control" type="text" disabled="disabled">
 			</div>
-			<div class="col-lg-1"></div>
-			<div class="col-lg-2">
-				<label>S/. Adelanto</label> <input class="form-control" type="text"
-					placeholder="1200.00" style="">
+		</div>
+		<div class="col-sm-3" style="float: left;">
+			<label class="col-lg-6 col-form-label form-control-label"
+				style="float: left;">ADELANTO</label>
+			<div class="col-lg-6" style="float: left;">
+				<input class="form-control" type="text">
 			</div>
-			<div class="col-lg-1"></div>
-			<div class="col-lg-2">
-				<label>S/. A cuenta</label> <input class="form-control" type="text"
-					placeholder="800.00" disabled="disabled" style="">
+		</div>
+		<div class="col-sm-3" style="float: left;">
+			<label class="col-lg-6 col-form-label form-control-label"
+				style="float: left;">A CUENTA</label>
+			<div class="col-lg-6" style="float: left;">
+				<input class="form-control" type="text" disabled="disabled">
 			</div>
-			<div class="col-lg-1"></div>
-			<div class="col-lg-2">
-				<label>50% Total</label> <input class="form-control" type="text"
-					placeholder="1000.00" disabled="disabled" style="">
+		</div>
+		<div class="col-sm-3" style="float: left;">
+			<label class="col-lg-8 col-form-label form-control-label"
+				style="float: left;">50% DEL TOTAL</label>
+			<div class="col-lg-4" style="float: left;">
+				<input class="form-control" type="text" disabled="disabled">
 			</div>
-			<div class="col-lg-1"></div>
 		</div>
 	</div>
-	<div class="col-sm-12" style="background-color: white; width: 100%;">
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Realizar</button>
-				<button type="button" class="btn btn-info">Cancelar</button>
+	<br>
+	<br>
+	<center>
+		<div class="col-sm-12">
+
+			<div class="col-sm-4" style="float: left;">
+				<button class="btn btn-danger">CANCELAR CONTRATO</button>
 			</div>
-			<div class="col-lg-8"></div>
+			<div class="col-sm-4" style="float: left;">
+				<label class="col-lg-6 col-form-label form-control-label"
+					style="float: left;">TIPO DE PAGO:</label>
+				<div class="col-lg-6" style="float: left;">
+					<select class="form-control">
+						<option value="Contado">CONTADO</option>
+						<option value="Credito">CREDITO</option>
+					</select>
+
+				</div>
+			</div>
+			<div class="col-sm-4" style="float: left;">
+				<button class="btn btn-success">REALIZAR CONTRATO</button>
+			</div>
 		</div>
-	</div>
 
 
-
-
+	</center>
 
 
 

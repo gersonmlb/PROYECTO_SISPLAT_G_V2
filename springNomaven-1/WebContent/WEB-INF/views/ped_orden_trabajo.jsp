@@ -37,93 +37,113 @@
 			<li class="breadcrumb-item"><a href="#">Blank Page</a></li>
 		</ul>
 	</div>
+	<center>
+		<div class="col-sm-12">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="form-group row">
+					<label class="col-lg-6 col-form-label form-control-label">ESCRIBA
+						EL CODIGO</label> <br>
+					<div class="col-lg-4">
+						<input class="form-control"  type="text" placeholder="">
+					</div>
+					<div class="col-lg-2">
+						<button class="btn btn-primary">Buscar</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4"></div>
+		</div>
+	</center>
 
 
-	<div class="col-sm-12" style="background-color: white; width: 100%;">
-		<label>Codigo de Pedido</label>
-		<div class="input-group">
-			<input type="text" class="form-control"
-				placeholder="Escriba el codigo del Pedido " aria-label="Username"
-				aria-describedby="basic-addon1">
-			<div class="input-group-prepend">
-				<button class="btn btn-primary" id="basic-addon1">
-					<i class="fa fa-search"></i>
-				</button>
+
+	<div>
+		<div class="col-sm-3"
+			style="background-color: green; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-4 col-form-label form-control-label">CLIENTE</label>
+				<br>
+				<div class="col-lg-8">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
 			</div>
 		</div>
-
-
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-3">
-				<label>Cliente</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label>Codigo</label> <input class="form-control" type="text"
-					placeholder="1212" disabled="disabled" style="">
-			</div>
-			<div class="col-lg-3">
-				<label>Nombre Producto</label> <input class="form-control"
-					type="text" placeholder="Joya de Oro" disabled="disabled" style="">
-
-			</div>
-			<div class="col-lg-3">
-				<label>Cantidad</label> <input class="form-control" type="text"
-					placeholder="3" disabled="disabled" style="">
-
+		<div class="col-sm-3"
+			style="background-color: blue; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">COD.PEDIDO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
 			</div>
 		</div>
+		<div class="col-sm-3"
+			style="background-color: yellow; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">FEC.EMITIDA
+				</label> <br>
 
-		<label>Materia Prima</label>
-		<div class="input-group">
-			<input type="text" class="form-control"
-				placeholder="Escriba el nombre de la materia prima a utilizar"
-				aria-label="Username" aria-describedby="basic-addon1">
-			<div class="input-group-prepend">
-				<button class="btn btn-primary" id="basic-addon1">
-					<i class="fa fa-search"></i>
-				</button>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
+				</div>
 			</div>
 		</div>
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-5">
-				<label>Nombre</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
-				<button class="btn btn-primary">Agregar</button>
-			</div>
-			<div class="col-lg-7" style="margin-top: 2%;">
-				<div class="table-responsive" style="background-color: white;">
-					<table class="table table-hover">
-						<thead>
-							<tr>
-								<th>#</th>
-								<th>Nombre Producto</th>
-								<th>Action</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td>
-								<td>Joya de Oro</td>
-								<td>X</td>
-							</tr>
-						</tbody>
-					</table>
+		<div class="col-sm-3"
+			style="background-color: purple; float: left; height: 100%;">
+			<div class="form-group row">
+				<label class="col-lg-5 col-form-label form-control-label">PRODUCTO</label>
+				<br>
+				<div class="col-lg-7">
+					<input class="form-control" type="text" disabled="true" placeholder="">
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-12" style="background-color: white; width: 100%;">
-		<div class="form-group row" style="margin-top: 2%;">
-			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Realizar</button>
-				<button type="button" class="btn btn-info">Cancelar</button>
-			</div>
-			<div class="col-lg-8"></div>
-
-		</div>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Codigo </th>
+					<th>Last Name</th>
+					<th>Dni</th>
+					<th>Type</th>
+					<th>User Name</th>
+					<th>Password</th>
+					<th colspan="2">Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+					<td>john@example.com</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
+	<br>
+	<center>
+		<div class="col-sm-12">
+			<div class="form-group row">
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Anterior</button>
+				</div>
 
+				<div class="col-lg-6" style="margin: auto">
+					<button type="button" class="btn btn-primary">Realizar</button>
+				</div>
+			</div>
+		</div>
+	</center>
 
 
 	</main>
