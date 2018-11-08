@@ -95,7 +95,6 @@
 					placeholder="Guzman Gonzales" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-4" style="margin-top: 2%;">
-			<label></label>
 				<button class="btn btn-primary">Agregar al carrito</button>
 			</div>
 		</div>
