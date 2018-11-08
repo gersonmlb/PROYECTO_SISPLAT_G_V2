@@ -18,6 +18,7 @@ public class CompraController {
 	}
 	@GetMapping("/Aceptar-Orden-de-Compra")
 	public String registrarordencompra2() {
+		
 		return "com_main_listascompras2";
 	}
 }
