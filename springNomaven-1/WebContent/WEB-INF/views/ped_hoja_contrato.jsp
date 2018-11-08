@@ -112,7 +112,7 @@
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Generar</button>
+				<button type="button" class="btn btn-success">Realizar</button>
 				<button type="button" class="btn btn-info">Cancelar</button>
 			</div>
 			<div class="col-lg-8"></div>

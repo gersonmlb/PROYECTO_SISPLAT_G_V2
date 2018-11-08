@@ -109,22 +109,22 @@
 			
 			<div class="col-lg-2">
 				<label>S/. Importe Total</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
+					placeholder="2000" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
 				<label>S/. Adelanto</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
+					placeholder="1200" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
 				<label>S/. A cuenta</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
+					placeholder="800" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2">
-				<label>50% Total</label> <input class="form-control" type="text"
-					placeholder="Guzman Gonzales" disabled="disabled" style="">
+				<label>IGV</label> <input class="form-control" type="text"
+					placeholder="360" disabled="disabled" style="">
 			</div>
 			<div class="col-lg-1"></div>
 		</div>
@@ -132,7 +132,7 @@
 	<div class="col-sm-12" style="background-color: white; width: 100%;">
 		<div class="form-group row" style="margin-top: 2%;">
 			<div class="col-lg-4">
-				<button type="button" class="btn btn-success">Generar Comprobante Pedido</button>
+				<button type="button" class="btn btn-success">Realizar</button>
 				<button type="button" class="btn btn-info">Cancelar</button>
 			</div>
 			<div class="col-lg-8"></div>
