@@ -51,22 +51,5 @@ public class PedidoController {
 	public String comprobante_pedido() {
 		return "ped_comprobante_pedido";
 	}
-	
-	/*
-	private Gson g = new Gson();
-	@RequestMapping(value = "/hc")
-	public void listarusuarios(HttpServletRequest request, HttpServletResponse response)
-			throws IOException, SQLException {
-		response.setContentType("text/html;charset=UTF-8");
-		PrintWriter out = response.getWriter();
-		int op = Integer.parseInt(request.getParameter("opc"));
-		switch (op) {
-		case 1:
-			
-			
-			break;
-		
-		}
-*/
 	}
 	
